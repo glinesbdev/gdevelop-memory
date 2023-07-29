@@ -1,0 +1,248 @@
+{
+  "author": "",
+  "category": "",
+  "extensionNamespace": "",
+  "fullName": "",
+  "helpPath": "",
+  "iconUrl": "",
+  "name": "CardHelper",
+  "previewIconUrl": "",
+  "shortDescription": "",
+  "version": "",
+  "description": "",
+  "tags": [],
+  "authorIds": [],
+  "dependencies": [],
+  "eventsFunctions": [
+    {
+      "description": "Maps card value and suit numbers to string names.",
+      "fullName": "MapName",
+      "functionType": "StringExpression",
+      "name": "MapSuitValue",
+      "sentence": "Map a card value _PARAM1_ and card suit _PARAM2_ to a string",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetReturnString"
+              },
+              "parameters": [
+                "CardHelper::MapSuit(GetArgumentAsNumber(\"cardSuit\")) + CardHelper::MapValue(GetArgumentAsNumber(\"cardValue\"))"
+              ]
+            }
+          ]
+        }
+      ],
+      "expressionType": {
+        "supplementaryInformation": "sceneCards",
+        "type": "string"
+      },
+      "parameters": [
+        {
+          "description": "Card Value",
+          "name": "cardValue",
+          "type": "expression"
+        },
+        {
+          "description": "Card Suit",
+          "name": "cardSuit",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Map a card number value to a string name",
+      "fullName": "Map card value",
+      "functionType": "StringExpression",
+      "name": "MapValue",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetReturnString"
+              },
+              "parameters": [
+                "CardHelper::_MapValue(GetArgumentAsNumber(\"cardValue\"))"
+              ]
+            }
+          ]
+        }
+      ],
+      "expressionType": {
+        "type": "string"
+      },
+      "parameters": [
+        {
+          "description": "Card value",
+          "name": "cardValue",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Map a card suit value to a string name",
+      "fullName": "Map card suit",
+      "functionType": "StringExpression",
+      "name": "MapSuit",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetReturnString"
+              },
+              "parameters": [
+                "CardHelper::_MapSuit(GetArgumentAsNumber(\"cardSuit\"))"
+              ]
+            }
+          ]
+        }
+      ],
+      "expressionType": {
+        "type": "string"
+      },
+      "parameters": [
+        {
+          "description": "Card suit",
+          "name": "cardSuit",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "Shuffle an array of card names",
+      "fullName": "ShuffleNames",
+      "functionType": "Action",
+      "name": "Shuffle",
+      "sentence": "Shuffle card names _PARAM1_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const arr = runtimeScene.getVariables().get(eventsFunctionContext.getArgument(\"names\"));",
+            "arr.castTo(\"array\");",
+            "const array = arr.getAllChildrenArray();",
+            "",
+            "const length = array.length",
+            "let index = -1;",
+            "const lastIndex = length - 1;",
+            "",
+            "while (++index < length) {",
+            "    const rand = index + Math.floor(Math.random() * (lastIndex - index + 1));",
+            "    const value = array[rand];",
+            "    array[rand] = array[index];",
+            "    array[index] = value;",
+            "}"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": true
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Array of names to shuffle",
+          "name": "names",
+          "type": "string"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "fullName": "",
+      "functionType": "StringExpression",
+      "name": "_MapSuit",
+      "private": true,
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const cardSuit = eventsFunctionContext.getArgument(\"suit\");\r",
+            "\r",
+            "const cardSuitName = (() => {\r",
+            "    switch (cardSuit) {\r",
+            "        case 0: return \"Clubs\";\r",
+            "        case 1: return \"Diamonds\";\r",
+            "        case 2: return \"Hearts\";\r",
+            "        case 3: return \"Spades\";\r",
+            "    }\r",
+            "})();\r",
+            "\r",
+            "eventsFunctionContext.returnValue = cardSuitName;"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "string"
+      },
+      "parameters": [
+        {
+          "description": "Card suit",
+          "name": "suit",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "fullName": "",
+      "functionType": "StringExpression",
+      "name": "_MapValue",
+      "private": true,
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "const cardValue = eventsFunctionContext.getArgument(\"value\");\r",
+            "\r",
+            "const cardValueName = (() => {\r",
+            "    switch (cardValue) {\r",
+            "        case 1: return \"Ace\";\r",
+            "        case 11: return \"Jack\";\r",
+            "        case 12: return \"Queen\";\r",
+            "        case 13: return \"King\";\r",
+            "        default: return cardValue.toString();\r",
+            "    }\r",
+            "})();\r",
+            "\r",
+            "eventsFunctionContext.returnValue = cardValueName;"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ],
+      "expressionType": {
+        "type": "string"
+      },
+      "parameters": [
+        {
+          "description": "Card value",
+          "name": "value",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    }
+  ],
+  "eventsBasedBehaviors": [],
+  "eventsBasedObjects": []
+}
