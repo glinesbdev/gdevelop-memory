@@ -1,7 +1,7 @@
 {
   "name": "Memory",
   "short_name": "Memory",
-  "id": "com.example.gamename",
+  "id": "com.glinesbdev.memory",
   "description": "",
   "orientation": "portrait",
   "start_url": "./index.html",

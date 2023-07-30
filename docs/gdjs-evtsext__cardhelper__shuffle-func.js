@@ -8,21 +8,27 @@ if (typeof gdjs.evtsExt__CardHelper__Shuffle !== "undefined") {
 gdjs.evtsExt__CardHelper__Shuffle = {};
 
 
-gdjs.evtsExt__CardHelper__Shuffle.userFunc0xa742b8 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__CardHelper__Shuffle.userFunc0xc003d8 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
+const random = (seed) => {
+  var x = Math.sin(seed++) * 10000; 
+  return x - Math.floor(x);
+}
+
 const arr = runtimeScene.getVariables().get(eventsFunctionContext.getArgument("names"));
 arr.castTo("array");
 const array = arr.getAllChildrenArray();
 
 const length = array.length
 let index = -1;
-const lastIndex = length - 1;
+let seed = new Date().getMilliseconds();
 
 while (++index < length) {
-    const rand = index + Math.floor(Math.random() * (lastIndex - index + 1));
+    const rand = Math.floor(random(seed) * index++);
     const value = array[rand];
     array[rand] = array[index];
     array[index] = value;
+    ++seed;
 }
 };
 gdjs.evtsExt__CardHelper__Shuffle.eventsList0 = function(runtimeScene, eventsFunctionContext) {
@@ -30,7 +36,7 @@ gdjs.evtsExt__CardHelper__Shuffle.eventsList0 = function(runtimeScene, eventsFun
 {
 
 
-gdjs.evtsExt__CardHelper__Shuffle.userFunc0xa742b8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__CardHelper__Shuffle.userFunc0xc003d8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

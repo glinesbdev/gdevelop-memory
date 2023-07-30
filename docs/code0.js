@@ -25,18 +25,18 @@ gdjs.GameCode.GDClubs3Objects3= [];
 gdjs.GameCode.GDClubs3Objects4= [];
 gdjs.GameCode.GDClubs3Objects5= [];
 gdjs.GameCode.GDClubs3Objects6= [];
-gdjs.GameCode.GDClubs4Objects1= [];
-gdjs.GameCode.GDClubs4Objects2= [];
-gdjs.GameCode.GDClubs4Objects3= [];
-gdjs.GameCode.GDClubs4Objects4= [];
-gdjs.GameCode.GDClubs4Objects5= [];
-gdjs.GameCode.GDClubs4Objects6= [];
 gdjs.GameCode.GDClubs5Objects1= [];
 gdjs.GameCode.GDClubs5Objects2= [];
 gdjs.GameCode.GDClubs5Objects3= [];
 gdjs.GameCode.GDClubs5Objects4= [];
 gdjs.GameCode.GDClubs5Objects5= [];
 gdjs.GameCode.GDClubs5Objects6= [];
+gdjs.GameCode.GDClubs4Objects1= [];
+gdjs.GameCode.GDClubs4Objects2= [];
+gdjs.GameCode.GDClubs4Objects3= [];
+gdjs.GameCode.GDClubs4Objects4= [];
+gdjs.GameCode.GDClubs4Objects5= [];
+gdjs.GameCode.GDClubs4Objects6= [];
 gdjs.GameCode.GDClubs6Objects1= [];
 gdjs.GameCode.GDClubs6Objects2= [];
 gdjs.GameCode.GDClubs6Objects3= [];
@@ -1512,7 +1512,7 @@ for(var i = 0, len = gdjs.GameCode.GDSpadesKingObjects3.length ;i < len;++i) {
 
 
 };gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDClubsAceObjects3ObjectsGDgdjs_9546GameCode_9546GDClubs2Objects3ObjectsGDgdjs_9546GameCode_9546GDClubs3Objects3ObjectsGDgdjs_9546GameCode_9546GDClubs4Objects3ObjectsGDgdjs_9546GameCode_9546GDClubs5Objects3ObjectsGDgdjs_9546GameCode_9546GDClubs6Objects3ObjectsGDgdjs_9546GameCode_9546GDClubs7Objects3ObjectsGDgdjs_9546GameCode_9546GDClubs8Objects3ObjectsGDgdjs_9546GameCode_9546GDClubs9Objects3ObjectsGDgdjs_9546GameCode_9546GDClubs10Objects3ObjectsGDgdjs_9546GameCode_9546GDClubsJackObjects3ObjectsGDgdjs_9546GameCode_9546GDClubsQueenObjects3ObjectsGDgdjs_9546GameCode_9546GDClubsKingObjects3ObjectsGDgdjs_9546GameCode_9546GDDiamondsAceObjects3ObjectsGDgdjs_9546GameCode_9546GDDiamonds2Objects3ObjectsGDgdjs_9546GameCode_9546GDDiamonds3Objects3ObjectsGDgdjs_9546GameCode_9546GDDiamonds4Objects3ObjectsGDgdjs_9546GameCode_9546GDDiamonds5Objects3ObjectsGDgdjs_9546GameCode_9546GDDiamonds6Objects3ObjectsGDgdjs_9546GameCode_9546GDDiamonds7Objects3ObjectsGDgdjs_9546GameCode_9546GDDiamonds8Objects3ObjectsGDgdjs_9546GameCode_9546GDDiamonds9Objects3ObjectsGDgdjs_9546GameCode_9546GDDiamonds10Objects3ObjectsGDgdjs_9546GameCode_9546GDDiamondsJackObjects3ObjectsGDgdjs_9546GameCode_9546GDDiamondsQueenObjects3ObjectsGDgdjs_9546GameCode_9546GDDiamondsKingObjects3ObjectsGDgdjs_9546GameCode_9546GDHeartsAceObjects3ObjectsGDgdjs_9546GameCode_9546GDHearts2Objects3ObjectsGDgdjs_9546GameCode_9546GDHearts3Objects3ObjectsGDgdjs_9546GameCode_9546GDHearts4Objects3ObjectsGDgdjs_9546GameCode_9546GDHearts5Objects3ObjectsGDgdjs_9546GameCode_9546GDHearts6Objects3ObjectsGDgdjs_9546GameCode_9546GDHearts7Objects3ObjectsGDgdjs_9546GameCode_9546GDHearts8Objects3ObjectsGDgdjs_9546GameCode_9546GDHearts9Objects3ObjectsGDgdjs_9546GameCode_9546GDHearts10Objects3ObjectsGDgdjs_9546GameCode_9546GDHeartsJackObjects3ObjectsGDgdjs_9546GameCode_9546GDHeartsQueenObjects3ObjectsGDgdjs_9546GameCode_9546GDHeartsKingObjects3ObjectsGDgdjs_9546GameCode_9546GDSpadesAceObjects3ObjectsGDgdjs_9546GameCode_9546GDSpades2Objects3ObjectsGDgdjs_9546GameCode_9546GDSpades3Objects3ObjectsGDgdjs_9546GameCode_9546GDSpades4Objects3ObjectsGDgdjs_9546GameCode_9546GDSpades5Objects3ObjectsGDgdjs_9546GameCode_9546GDSpades6Objects3ObjectsGDgdjs_9546GameCode_9546GDSpades7Objects3ObjectsGDgdjs_9546GameCode_9546GDSpades8Objects3ObjectsGDgdjs_9546GameCode_9546GDSpades9Objects3ObjectsGDgdjs_9546GameCode_9546GDSpades10Objects3ObjectsGDgdjs_9546GameCode_9546GDSpadesJackObjects3ObjectsGDgdjs_9546GameCode_9546GDSpadesQueenObjects3ObjectsGDgdjs_9546GameCode_9546GDSpadesKingObjects3Objects = Hashtable.newFrom({"ClubsAce": gdjs.GameCode.GDClubsAceObjects3, "Clubs2": gdjs.GameCode.GDClubs2Objects3, "Clubs3": gdjs.GameCode.GDClubs3Objects3, "Clubs4": gdjs.GameCode.GDClubs4Objects3, "Clubs5": gdjs.GameCode.GDClubs5Objects3, "Clubs6": gdjs.GameCode.GDClubs6Objects3, "Clubs7": gdjs.GameCode.GDClubs7Objects3, "Clubs8": gdjs.GameCode.GDClubs8Objects3, "Clubs9": gdjs.GameCode.GDClubs9Objects3, "Clubs10": gdjs.GameCode.GDClubs10Objects3, "ClubsJack": gdjs.GameCode.GDClubsJackObjects3, "ClubsQueen": gdjs.GameCode.GDClubsQueenObjects3, "ClubsKing": gdjs.GameCode.GDClubsKingObjects3, "DiamondsAce": gdjs.GameCode.GDDiamondsAceObjects3, "Diamonds2": gdjs.GameCode.GDDiamonds2Objects3, "Diamonds3": gdjs.GameCode.GDDiamonds3Objects3, "Diamonds4": gdjs.GameCode.GDDiamonds4Objects3, "Diamonds5": gdjs.GameCode.GDDiamonds5Objects3, "Diamonds6": gdjs.GameCode.GDDiamonds6Objects3, "Diamonds7": gdjs.GameCode.GDDiamonds7Objects3, "Diamonds8": gdjs.GameCode.GDDiamonds8Objects3, "Diamonds9": gdjs.GameCode.GDDiamonds9Objects3, "Diamonds10": gdjs.GameCode.GDDiamonds10Objects3, "DiamondsJack": gdjs.GameCode.GDDiamondsJackObjects3, "DiamondsQueen": gdjs.GameCode.GDDiamondsQueenObjects3, "DiamondsKing": gdjs.GameCode.GDDiamondsKingObjects3, "HeartsAce": gdjs.GameCode.GDHeartsAceObjects3, "Hearts2": gdjs.GameCode.GDHearts2Objects3, "Hearts3": gdjs.GameCode.GDHearts3Objects3, "Hearts4": gdjs.GameCode.GDHearts4Objects3, "Hearts5": gdjs.GameCode.GDHearts5Objects3, "Hearts6": gdjs.GameCode.GDHearts6Objects3, "Hearts7": gdjs.GameCode.GDHearts7Objects3, "Hearts8": gdjs.GameCode.GDHearts8Objects3, "Hearts9": gdjs.GameCode.GDHearts9Objects3, "Hearts10": gdjs.GameCode.GDHearts10Objects3, "HeartsJack": gdjs.GameCode.GDHeartsJackObjects3, "HeartsQueen": gdjs.GameCode.GDHeartsQueenObjects3, "HeartsKing": gdjs.GameCode.GDHeartsKingObjects3, "SpadesAce": gdjs.GameCode.GDSpadesAceObjects3, "Spades2": gdjs.GameCode.GDSpades2Objects3, "Spades3": gdjs.GameCode.GDSpades3Objects3, "Spades4": gdjs.GameCode.GDSpades4Objects3, "Spades5": gdjs.GameCode.GDSpades5Objects3, "Spades6": gdjs.GameCode.GDSpades6Objects3, "Spades7": gdjs.GameCode.GDSpades7Objects3, "Spades8": gdjs.GameCode.GDSpades8Objects3, "Spades9": gdjs.GameCode.GDSpades9Objects3, "Spades10": gdjs.GameCode.GDSpades10Objects3, "SpadesJack": gdjs.GameCode.GDSpadesJackObjects3, "SpadesQueen": gdjs.GameCode.GDSpadesQueenObjects3, "SpadesKing": gdjs.GameCode.GDSpadesKingObjects3});
-gdjs.GameCode.asyncCallback10207532 = function (runtimeScene, asyncObjectsList) {
+gdjs.GameCode.asyncCallback12437836 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Clubs10"), gdjs.GameCode.GDClubs10Objects4);
 
 gdjs.copyArray(asyncObjectsList.getObjects("Clubs2"), gdjs.GameCode.GDClubs2Objects4);
@@ -1618,6 +1618,162 @@ gdjs.copyArray(asyncObjectsList.getObjects("SpadesKing"), gdjs.GameCode.GDSpades
 gdjs.copyArray(asyncObjectsList.getObjects("SpadesQueen"), gdjs.GameCode.GDSpadesQueenObjects4);
 
 {for(var i = 0, len = gdjs.GameCode.GDClubsAceObjects4.length ;i < len;++i) {
+    gdjs.GameCode.GDClubsAceObjects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDClubs2Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDClubs2Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDClubs3Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDClubs3Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDClubs4Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDClubs4Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDClubs5Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDClubs5Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDClubs6Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDClubs6Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDClubs7Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDClubs7Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDClubs8Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDClubs8Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDClubs9Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDClubs9Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDClubs10Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDClubs10Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDClubsJackObjects4.length ;i < len;++i) {
+    gdjs.GameCode.GDClubsJackObjects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDClubsQueenObjects4.length ;i < len;++i) {
+    gdjs.GameCode.GDClubsQueenObjects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDClubsKingObjects4.length ;i < len;++i) {
+    gdjs.GameCode.GDClubsKingObjects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDDiamondsAceObjects4.length ;i < len;++i) {
+    gdjs.GameCode.GDDiamondsAceObjects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDDiamonds2Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDDiamonds2Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDDiamonds3Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDDiamonds3Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDDiamonds4Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDDiamonds4Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDDiamonds5Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDDiamonds5Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDDiamonds6Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDDiamonds6Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDDiamonds7Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDDiamonds7Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDDiamonds8Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDDiamonds8Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDDiamonds9Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDDiamonds9Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDDiamonds10Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDDiamonds10Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDDiamondsJackObjects4.length ;i < len;++i) {
+    gdjs.GameCode.GDDiamondsJackObjects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDDiamondsQueenObjects4.length ;i < len;++i) {
+    gdjs.GameCode.GDDiamondsQueenObjects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDDiamondsKingObjects4.length ;i < len;++i) {
+    gdjs.GameCode.GDDiamondsKingObjects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDHeartsAceObjects4.length ;i < len;++i) {
+    gdjs.GameCode.GDHeartsAceObjects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDHearts2Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDHearts2Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDHearts3Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDHearts3Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDHearts4Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDHearts4Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDHearts5Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDHearts5Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDHearts6Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDHearts6Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDHearts7Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDHearts7Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDHearts8Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDHearts8Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDHearts9Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDHearts9Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDHearts10Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDHearts10Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDHeartsJackObjects4.length ;i < len;++i) {
+    gdjs.GameCode.GDHeartsJackObjects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDHeartsQueenObjects4.length ;i < len;++i) {
+    gdjs.GameCode.GDHeartsQueenObjects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDHeartsKingObjects4.length ;i < len;++i) {
+    gdjs.GameCode.GDHeartsKingObjects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDSpadesAceObjects4.length ;i < len;++i) {
+    gdjs.GameCode.GDSpadesAceObjects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDSpades2Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDSpades2Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDSpades3Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDSpades3Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDSpades4Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDSpades4Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDSpades5Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDSpades5Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDSpades6Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDSpades6Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDSpades7Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDSpades7Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDSpades8Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDSpades8Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDSpades9Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDSpades9Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDSpades10Objects4.length ;i < len;++i) {
+    gdjs.GameCode.GDSpades10Objects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDSpadesJackObjects4.length ;i < len;++i) {
+    gdjs.GameCode.GDSpadesJackObjects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDSpadesQueenObjects4.length ;i < len;++i) {
+    gdjs.GameCode.GDSpadesQueenObjects4[i].flipX(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDSpadesKingObjects4.length ;i < len;++i) {
+    gdjs.GameCode.GDSpadesKingObjects4[i].flipX(true);
+}
+}{for(var i = 0, len = gdjs.GameCode.GDClubsAceObjects4.length ;i < len;++i) {
     gdjs.GameCode.GDClubsAceObjects4[i].setAnimationName("Back");
 }
 for(var i = 0, len = gdjs.GameCode.GDClubs2Objects4.length ;i < len;++i) {
@@ -2147,7 +2303,7 @@ for (const obj of gdjs.GameCode.GDSpadesAceObjects3) asyncObjectsList.addObject(
 for (const obj of gdjs.GameCode.GDSpadesJackObjects3) asyncObjectsList.addObject("SpadesJack", obj);
 for (const obj of gdjs.GameCode.GDSpadesKingObjects3) asyncObjectsList.addObject("SpadesKing", obj);
 for (const obj of gdjs.GameCode.GDSpadesQueenObjects3) asyncObjectsList.addObject("SpadesQueen", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback10207532(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback12437836(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -2773,7 +2929,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10199684);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12451060);
 }
 }
 if (isConditionTrue_0) {
@@ -2830,6 +2986,162 @@ if (isConditionTrue_0) {
 /* Reuse gdjs.GameCode.GDSpadesKingObjects2 */
 /* Reuse gdjs.GameCode.GDSpadesQueenObjects2 */
 {for(var i = 0, len = gdjs.GameCode.GDClubsAceObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDClubsAceObjects2[i].setVariableBoolean(gdjs.GameCode.GDClubsAceObjects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDClubs2Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDClubs2Objects2[i].setVariableBoolean(gdjs.GameCode.GDClubs2Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDClubs3Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDClubs3Objects2[i].setVariableBoolean(gdjs.GameCode.GDClubs3Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDClubs4Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDClubs4Objects2[i].setVariableBoolean(gdjs.GameCode.GDClubs4Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDClubs5Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDClubs5Objects2[i].setVariableBoolean(gdjs.GameCode.GDClubs5Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDClubs6Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDClubs6Objects2[i].setVariableBoolean(gdjs.GameCode.GDClubs6Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDClubs7Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDClubs7Objects2[i].setVariableBoolean(gdjs.GameCode.GDClubs7Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDClubs8Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDClubs8Objects2[i].setVariableBoolean(gdjs.GameCode.GDClubs8Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDClubs9Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDClubs9Objects2[i].setVariableBoolean(gdjs.GameCode.GDClubs9Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDClubs10Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDClubs10Objects2[i].setVariableBoolean(gdjs.GameCode.GDClubs10Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDClubsJackObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDClubsJackObjects2[i].setVariableBoolean(gdjs.GameCode.GDClubsJackObjects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDClubsQueenObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDClubsQueenObjects2[i].setVariableBoolean(gdjs.GameCode.GDClubsQueenObjects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDClubsKingObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDClubsKingObjects2[i].setVariableBoolean(gdjs.GameCode.GDClubsKingObjects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDDiamondsAceObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDDiamondsAceObjects2[i].setVariableBoolean(gdjs.GameCode.GDDiamondsAceObjects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDDiamonds2Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDDiamonds2Objects2[i].setVariableBoolean(gdjs.GameCode.GDDiamonds2Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDDiamonds3Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDDiamonds3Objects2[i].setVariableBoolean(gdjs.GameCode.GDDiamonds3Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDDiamonds4Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDDiamonds4Objects2[i].setVariableBoolean(gdjs.GameCode.GDDiamonds4Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDDiamonds5Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDDiamonds5Objects2[i].setVariableBoolean(gdjs.GameCode.GDDiamonds5Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDDiamonds6Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDDiamonds6Objects2[i].setVariableBoolean(gdjs.GameCode.GDDiamonds6Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDDiamonds7Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDDiamonds7Objects2[i].setVariableBoolean(gdjs.GameCode.GDDiamonds7Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDDiamonds8Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDDiamonds8Objects2[i].setVariableBoolean(gdjs.GameCode.GDDiamonds8Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDDiamonds9Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDDiamonds9Objects2[i].setVariableBoolean(gdjs.GameCode.GDDiamonds9Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDDiamonds10Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDDiamonds10Objects2[i].setVariableBoolean(gdjs.GameCode.GDDiamonds10Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDDiamondsJackObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDDiamondsJackObjects2[i].setVariableBoolean(gdjs.GameCode.GDDiamondsJackObjects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDDiamondsQueenObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDDiamondsQueenObjects2[i].setVariableBoolean(gdjs.GameCode.GDDiamondsQueenObjects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDDiamondsKingObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDDiamondsKingObjects2[i].setVariableBoolean(gdjs.GameCode.GDDiamondsKingObjects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDHeartsAceObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDHeartsAceObjects2[i].setVariableBoolean(gdjs.GameCode.GDHeartsAceObjects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDHearts2Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDHearts2Objects2[i].setVariableBoolean(gdjs.GameCode.GDHearts2Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDHearts3Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDHearts3Objects2[i].setVariableBoolean(gdjs.GameCode.GDHearts3Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDHearts4Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDHearts4Objects2[i].setVariableBoolean(gdjs.GameCode.GDHearts4Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDHearts5Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDHearts5Objects2[i].setVariableBoolean(gdjs.GameCode.GDHearts5Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDHearts6Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDHearts6Objects2[i].setVariableBoolean(gdjs.GameCode.GDHearts6Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDHearts7Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDHearts7Objects2[i].setVariableBoolean(gdjs.GameCode.GDHearts7Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDHearts8Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDHearts8Objects2[i].setVariableBoolean(gdjs.GameCode.GDHearts8Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDHearts9Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDHearts9Objects2[i].setVariableBoolean(gdjs.GameCode.GDHearts9Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDHearts10Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDHearts10Objects2[i].setVariableBoolean(gdjs.GameCode.GDHearts10Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDHeartsJackObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDHeartsJackObjects2[i].setVariableBoolean(gdjs.GameCode.GDHeartsJackObjects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDHeartsQueenObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDHeartsQueenObjects2[i].setVariableBoolean(gdjs.GameCode.GDHeartsQueenObjects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDHeartsKingObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDHeartsKingObjects2[i].setVariableBoolean(gdjs.GameCode.GDHeartsKingObjects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDSpadesAceObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDSpadesAceObjects2[i].setVariableBoolean(gdjs.GameCode.GDSpadesAceObjects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDSpades2Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDSpades2Objects2[i].setVariableBoolean(gdjs.GameCode.GDSpades2Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDSpades3Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDSpades3Objects2[i].setVariableBoolean(gdjs.GameCode.GDSpades3Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDSpades4Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDSpades4Objects2[i].setVariableBoolean(gdjs.GameCode.GDSpades4Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDSpades5Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDSpades5Objects2[i].setVariableBoolean(gdjs.GameCode.GDSpades5Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDSpades6Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDSpades6Objects2[i].setVariableBoolean(gdjs.GameCode.GDSpades6Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDSpades7Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDSpades7Objects2[i].setVariableBoolean(gdjs.GameCode.GDSpades7Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDSpades8Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDSpades8Objects2[i].setVariableBoolean(gdjs.GameCode.GDSpades8Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDSpades9Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDSpades9Objects2[i].setVariableBoolean(gdjs.GameCode.GDSpades9Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDSpades10Objects2.length ;i < len;++i) {
+    gdjs.GameCode.GDSpades10Objects2[i].setVariableBoolean(gdjs.GameCode.GDSpades10Objects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDSpadesJackObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDSpadesJackObjects2[i].setVariableBoolean(gdjs.GameCode.GDSpadesJackObjects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDSpadesQueenObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDSpadesQueenObjects2[i].setVariableBoolean(gdjs.GameCode.GDSpadesQueenObjects2[i].getVariables().get("clickable"), false);
+}
+for(var i = 0, len = gdjs.GameCode.GDSpadesKingObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDSpadesKingObjects2[i].setVariableBoolean(gdjs.GameCode.GDSpadesKingObjects2[i].getVariables().get("clickable"), false);
+}
+}{for(var i = 0, len = gdjs.GameCode.GDClubsAceObjects2.length ;i < len;++i) {
     gdjs.GameCode.GDClubsAceObjects2[i].setVariableBoolean(gdjs.GameCode.GDClubsAceObjects2[i].getVariables().get("activated"), true);
 }
 for(var i = 0, len = gdjs.GameCode.GDClubs2Objects2.length ;i < len;++i) {
@@ -2985,161 +3297,162 @@ for(var i = 0, len = gdjs.GameCode.GDSpadesQueenObjects2.length ;i < len;++i) {
 for(var i = 0, len = gdjs.GameCode.GDSpadesKingObjects2.length ;i < len;++i) {
     gdjs.GameCode.GDSpadesKingObjects2[i].setVariableBoolean(gdjs.GameCode.GDSpadesKingObjects2[i].getVariables().get("activated"), true);
 }
+}{gdjs.evtTools.variable.valuePush(runtimeScene.getScene().getVariables().get("active_values"), gdjs.evtsExt__CardHelper__MapSuit.func(runtimeScene, (gdjs.RuntimeObject.getVariableNumber(((gdjs.GameCode.GDSpadesKingObjects2.length === 0 ) ? ((gdjs.GameCode.GDSpadesQueenObjects2.length === 0 ) ? ((gdjs.GameCode.GDSpadesJackObjects2.length === 0 ) ? ((gdjs.GameCode.GDSpades10Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpades9Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpades8Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpades7Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpades6Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpades5Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpades4Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpades3Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpades2Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpadesAceObjects2.length === 0 ) ? ((gdjs.GameCode.GDHeartsKingObjects2.length === 0 ) ? ((gdjs.GameCode.GDHeartsQueenObjects2.length === 0 ) ? ((gdjs.GameCode.GDHeartsJackObjects2.length === 0 ) ? ((gdjs.GameCode.GDHearts10Objects2.length === 0 ) ? ((gdjs.GameCode.GDHearts9Objects2.length === 0 ) ? ((gdjs.GameCode.GDHearts8Objects2.length === 0 ) ? ((gdjs.GameCode.GDHearts7Objects2.length === 0 ) ? ((gdjs.GameCode.GDHearts6Objects2.length === 0 ) ? ((gdjs.GameCode.GDHearts5Objects2.length === 0 ) ? ((gdjs.GameCode.GDHearts4Objects2.length === 0 ) ? ((gdjs.GameCode.GDHearts3Objects2.length === 0 ) ? ((gdjs.GameCode.GDHearts2Objects2.length === 0 ) ? ((gdjs.GameCode.GDHeartsAceObjects2.length === 0 ) ? ((gdjs.GameCode.GDDiamondsKingObjects2.length === 0 ) ? ((gdjs.GameCode.GDDiamondsQueenObjects2.length === 0 ) ? ((gdjs.GameCode.GDDiamondsJackObjects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds10Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds9Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds8Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds7Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds6Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds5Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds4Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds3Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds2Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamondsAceObjects2.length === 0 ) ? ((gdjs.GameCode.GDClubsKingObjects2.length === 0 ) ? ((gdjs.GameCode.GDClubsQueenObjects2.length === 0 ) ? ((gdjs.GameCode.GDClubsJackObjects2.length === 0 ) ? ((gdjs.GameCode.GDClubs10Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubs9Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubs8Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubs7Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubs6Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubs5Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubs4Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubs3Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubs2Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubsAceObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.GameCode.GDClubsAceObjects2[0].getVariables()) : gdjs.GameCode.GDClubs2Objects2[0].getVariables()) : gdjs.GameCode.GDClubs3Objects2[0].getVariables()) : gdjs.GameCode.GDClubs4Objects2[0].getVariables()) : gdjs.GameCode.GDClubs5Objects2[0].getVariables()) : gdjs.GameCode.GDClubs6Objects2[0].getVariables()) : gdjs.GameCode.GDClubs7Objects2[0].getVariables()) : gdjs.GameCode.GDClubs8Objects2[0].getVariables()) : gdjs.GameCode.GDClubs9Objects2[0].getVariables()) : gdjs.GameCode.GDClubs10Objects2[0].getVariables()) : gdjs.GameCode.GDClubsJackObjects2[0].getVariables()) : gdjs.GameCode.GDClubsQueenObjects2[0].getVariables()) : gdjs.GameCode.GDClubsKingObjects2[0].getVariables()) : gdjs.GameCode.GDDiamondsAceObjects2[0].getVariables()) : gdjs.GameCode.GDDiamonds2Objects2[0].getVariables()) : gdjs.GameCode.GDDiamonds3Objects2[0].getVariables()) : gdjs.GameCode.GDDiamonds4Objects2[0].getVariables()) : gdjs.GameCode.GDDiamonds5Objects2[0].getVariables()) : gdjs.GameCode.GDDiamonds6Objects2[0].getVariables()) : gdjs.GameCode.GDDiamonds7Objects2[0].getVariables()) : gdjs.GameCode.GDDiamonds8Objects2[0].getVariables()) : gdjs.GameCode.GDDiamonds9Objects2[0].getVariables()) : gdjs.GameCode.GDDiamonds10Objects2[0].getVariables()) : gdjs.GameCode.GDDiamondsJackObjects2[0].getVariables()) : gdjs.GameCode.GDDiamondsQueenObjects2[0].getVariables()) : gdjs.GameCode.GDDiamondsKingObjects2[0].getVariables()) : gdjs.GameCode.GDHeartsAceObjects2[0].getVariables()) : gdjs.GameCode.GDHearts2Objects2[0].getVariables()) : gdjs.GameCode.GDHearts3Objects2[0].getVariables()) : gdjs.GameCode.GDHearts4Objects2[0].getVariables()) : gdjs.GameCode.GDHearts5Objects2[0].getVariables()) : gdjs.GameCode.GDHearts6Objects2[0].getVariables()) : gdjs.GameCode.GDHearts7Objects2[0].getVariables()) : gdjs.GameCode.GDHearts8Objects2[0].getVariables()) : gdjs.GameCode.GDHearts9Objects2[0].getVariables()) : gdjs.GameCode.GDHearts10Objects2[0].getVariables()) : gdjs.GameCode.GDHeartsJackObjects2[0].getVariables()) : gdjs.GameCode.GDHeartsQueenObjects2[0].getVariables()) : gdjs.GameCode.GDHeartsKingObjects2[0].getVariables()) : gdjs.GameCode.GDSpadesAceObjects2[0].getVariables()) : gdjs.GameCode.GDSpades2Objects2[0].getVariables()) : gdjs.GameCode.GDSpades3Objects2[0].getVariables()) : gdjs.GameCode.GDSpades4Objects2[0].getVariables()) : gdjs.GameCode.GDSpades5Objects2[0].getVariables()) : gdjs.GameCode.GDSpades6Objects2[0].getVariables()) : gdjs.GameCode.GDSpades7Objects2[0].getVariables()) : gdjs.GameCode.GDSpades8Objects2[0].getVariables()) : gdjs.GameCode.GDSpades9Objects2[0].getVariables()) : gdjs.GameCode.GDSpades10Objects2[0].getVariables()) : gdjs.GameCode.GDSpadesJackObjects2[0].getVariables()) : gdjs.GameCode.GDSpadesQueenObjects2[0].getVariables()) : gdjs.GameCode.GDSpadesKingObjects2[0].getVariables()).get("suit"))), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) + gdjs.evtsExt__CardHelper__MapValue.func(runtimeScene, (gdjs.RuntimeObject.getVariableNumber(((gdjs.GameCode.GDSpadesKingObjects2.length === 0 ) ? ((gdjs.GameCode.GDSpadesQueenObjects2.length === 0 ) ? ((gdjs.GameCode.GDSpadesJackObjects2.length === 0 ) ? ((gdjs.GameCode.GDSpades10Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpades9Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpades8Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpades7Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpades6Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpades5Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpades4Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpades3Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpades2Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpadesAceObjects2.length === 0 ) ? ((gdjs.GameCode.GDHeartsKingObjects2.length === 0 ) ? ((gdjs.GameCode.GDHeartsQueenObjects2.length === 0 ) ? ((gdjs.GameCode.GDHeartsJackObjects2.length === 0 ) ? ((gdjs.GameCode.GDHearts10Objects2.length === 0 ) ? ((gdjs.GameCode.GDHearts9Objects2.length === 0 ) ? ((gdjs.GameCode.GDHearts8Objects2.length === 0 ) ? ((gdjs.GameCode.GDHearts7Objects2.length === 0 ) ? ((gdjs.GameCode.GDHearts6Objects2.length === 0 ) ? ((gdjs.GameCode.GDHearts5Objects2.length === 0 ) ? ((gdjs.GameCode.GDHearts4Objects2.length === 0 ) ? ((gdjs.GameCode.GDHearts3Objects2.length === 0 ) ? ((gdjs.GameCode.GDHearts2Objects2.length === 0 ) ? ((gdjs.GameCode.GDHeartsAceObjects2.length === 0 ) ? ((gdjs.GameCode.GDDiamondsKingObjects2.length === 0 ) ? ((gdjs.GameCode.GDDiamondsQueenObjects2.length === 0 ) ? ((gdjs.GameCode.GDDiamondsJackObjects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds10Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds9Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds8Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds7Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds6Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds5Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds4Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds3Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds2Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamondsAceObjects2.length === 0 ) ? ((gdjs.GameCode.GDClubsKingObjects2.length === 0 ) ? ((gdjs.GameCode.GDClubsQueenObjects2.length === 0 ) ? ((gdjs.GameCode.GDClubsJackObjects2.length === 0 ) ? ((gdjs.GameCode.GDClubs10Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubs9Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubs8Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubs7Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubs6Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubs5Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubs4Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubs3Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubs2Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubsAceObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.GameCode.GDClubsAceObjects2[0].getVariables()) : gdjs.GameCode.GDClubs2Objects2[0].getVariables()) : gdjs.GameCode.GDClubs3Objects2[0].getVariables()) : gdjs.GameCode.GDClubs4Objects2[0].getVariables()) : gdjs.GameCode.GDClubs5Objects2[0].getVariables()) : gdjs.GameCode.GDClubs6Objects2[0].getVariables()) : gdjs.GameCode.GDClubs7Objects2[0].getVariables()) : gdjs.GameCode.GDClubs8Objects2[0].getVariables()) : gdjs.GameCode.GDClubs9Objects2[0].getVariables()) : gdjs.GameCode.GDClubs10Objects2[0].getVariables()) : gdjs.GameCode.GDClubsJackObjects2[0].getVariables()) : gdjs.GameCode.GDClubsQueenObjects2[0].getVariables()) : gdjs.GameCode.GDClubsKingObjects2[0].getVariables()) : gdjs.GameCode.GDDiamondsAceObjects2[0].getVariables()) : gdjs.GameCode.GDDiamonds2Objects2[0].getVariables()) : gdjs.GameCode.GDDiamonds3Objects2[0].getVariables()) : gdjs.GameCode.GDDiamonds4Objects2[0].getVariables()) : gdjs.GameCode.GDDiamonds5Objects2[0].getVariables()) : gdjs.GameCode.GDDiamonds6Objects2[0].getVariables()) : gdjs.GameCode.GDDiamonds7Objects2[0].getVariables()) : gdjs.GameCode.GDDiamonds8Objects2[0].getVariables()) : gdjs.GameCode.GDDiamonds9Objects2[0].getVariables()) : gdjs.GameCode.GDDiamonds10Objects2[0].getVariables()) : gdjs.GameCode.GDDiamondsJackObjects2[0].getVariables()) : gdjs.GameCode.GDDiamondsQueenObjects2[0].getVariables()) : gdjs.GameCode.GDDiamondsKingObjects2[0].getVariables()) : gdjs.GameCode.GDHeartsAceObjects2[0].getVariables()) : gdjs.GameCode.GDHearts2Objects2[0].getVariables()) : gdjs.GameCode.GDHearts3Objects2[0].getVariables()) : gdjs.GameCode.GDHearts4Objects2[0].getVariables()) : gdjs.GameCode.GDHearts5Objects2[0].getVariables()) : gdjs.GameCode.GDHearts6Objects2[0].getVariables()) : gdjs.GameCode.GDHearts7Objects2[0].getVariables()) : gdjs.GameCode.GDHearts8Objects2[0].getVariables()) : gdjs.GameCode.GDHearts9Objects2[0].getVariables()) : gdjs.GameCode.GDHearts10Objects2[0].getVariables()) : gdjs.GameCode.GDHeartsJackObjects2[0].getVariables()) : gdjs.GameCode.GDHeartsQueenObjects2[0].getVariables()) : gdjs.GameCode.GDHeartsKingObjects2[0].getVariables()) : gdjs.GameCode.GDSpadesAceObjects2[0].getVariables()) : gdjs.GameCode.GDSpades2Objects2[0].getVariables()) : gdjs.GameCode.GDSpades3Objects2[0].getVariables()) : gdjs.GameCode.GDSpades4Objects2[0].getVariables()) : gdjs.GameCode.GDSpades5Objects2[0].getVariables()) : gdjs.GameCode.GDSpades6Objects2[0].getVariables()) : gdjs.GameCode.GDSpades7Objects2[0].getVariables()) : gdjs.GameCode.GDSpades8Objects2[0].getVariables()) : gdjs.GameCode.GDSpades9Objects2[0].getVariables()) : gdjs.GameCode.GDSpades10Objects2[0].getVariables()) : gdjs.GameCode.GDSpadesJackObjects2[0].getVariables()) : gdjs.GameCode.GDSpadesQueenObjects2[0].getVariables()) : gdjs.GameCode.GDSpadesKingObjects2[0].getVariables()).get("value"))), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)));
 }{for(var i = 0, len = gdjs.GameCode.GDClubsAceObjects2.length ;i < len;++i) {
-    gdjs.GameCode.GDClubsAceObjects2[i].setVariableBoolean(gdjs.GameCode.GDClubsAceObjects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDClubsAceObjects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDClubs2Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDClubs2Objects2[i].setVariableBoolean(gdjs.GameCode.GDClubs2Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDClubs2Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDClubs3Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDClubs3Objects2[i].setVariableBoolean(gdjs.GameCode.GDClubs3Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDClubs3Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDClubs4Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDClubs4Objects2[i].setVariableBoolean(gdjs.GameCode.GDClubs4Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDClubs4Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDClubs5Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDClubs5Objects2[i].setVariableBoolean(gdjs.GameCode.GDClubs5Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDClubs5Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDClubs6Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDClubs6Objects2[i].setVariableBoolean(gdjs.GameCode.GDClubs6Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDClubs6Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDClubs7Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDClubs7Objects2[i].setVariableBoolean(gdjs.GameCode.GDClubs7Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDClubs7Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDClubs8Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDClubs8Objects2[i].setVariableBoolean(gdjs.GameCode.GDClubs8Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDClubs8Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDClubs9Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDClubs9Objects2[i].setVariableBoolean(gdjs.GameCode.GDClubs9Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDClubs9Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDClubs10Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDClubs10Objects2[i].setVariableBoolean(gdjs.GameCode.GDClubs10Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDClubs10Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDClubsJackObjects2.length ;i < len;++i) {
-    gdjs.GameCode.GDClubsJackObjects2[i].setVariableBoolean(gdjs.GameCode.GDClubsJackObjects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDClubsJackObjects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDClubsQueenObjects2.length ;i < len;++i) {
-    gdjs.GameCode.GDClubsQueenObjects2[i].setVariableBoolean(gdjs.GameCode.GDClubsQueenObjects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDClubsQueenObjects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDClubsKingObjects2.length ;i < len;++i) {
-    gdjs.GameCode.GDClubsKingObjects2[i].setVariableBoolean(gdjs.GameCode.GDClubsKingObjects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDClubsKingObjects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDDiamondsAceObjects2.length ;i < len;++i) {
-    gdjs.GameCode.GDDiamondsAceObjects2[i].setVariableBoolean(gdjs.GameCode.GDDiamondsAceObjects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDDiamondsAceObjects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDDiamonds2Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDDiamonds2Objects2[i].setVariableBoolean(gdjs.GameCode.GDDiamonds2Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDDiamonds2Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDDiamonds3Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDDiamonds3Objects2[i].setVariableBoolean(gdjs.GameCode.GDDiamonds3Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDDiamonds3Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDDiamonds4Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDDiamonds4Objects2[i].setVariableBoolean(gdjs.GameCode.GDDiamonds4Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDDiamonds4Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDDiamonds5Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDDiamonds5Objects2[i].setVariableBoolean(gdjs.GameCode.GDDiamonds5Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDDiamonds5Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDDiamonds6Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDDiamonds6Objects2[i].setVariableBoolean(gdjs.GameCode.GDDiamonds6Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDDiamonds6Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDDiamonds7Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDDiamonds7Objects2[i].setVariableBoolean(gdjs.GameCode.GDDiamonds7Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDDiamonds7Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDDiamonds8Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDDiamonds8Objects2[i].setVariableBoolean(gdjs.GameCode.GDDiamonds8Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDDiamonds8Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDDiamonds9Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDDiamonds9Objects2[i].setVariableBoolean(gdjs.GameCode.GDDiamonds9Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDDiamonds9Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDDiamonds10Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDDiamonds10Objects2[i].setVariableBoolean(gdjs.GameCode.GDDiamonds10Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDDiamonds10Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDDiamondsJackObjects2.length ;i < len;++i) {
-    gdjs.GameCode.GDDiamondsJackObjects2[i].setVariableBoolean(gdjs.GameCode.GDDiamondsJackObjects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDDiamondsJackObjects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDDiamondsQueenObjects2.length ;i < len;++i) {
-    gdjs.GameCode.GDDiamondsQueenObjects2[i].setVariableBoolean(gdjs.GameCode.GDDiamondsQueenObjects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDDiamondsQueenObjects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDDiamondsKingObjects2.length ;i < len;++i) {
-    gdjs.GameCode.GDDiamondsKingObjects2[i].setVariableBoolean(gdjs.GameCode.GDDiamondsKingObjects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDDiamondsKingObjects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDHeartsAceObjects2.length ;i < len;++i) {
-    gdjs.GameCode.GDHeartsAceObjects2[i].setVariableBoolean(gdjs.GameCode.GDHeartsAceObjects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDHeartsAceObjects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDHearts2Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDHearts2Objects2[i].setVariableBoolean(gdjs.GameCode.GDHearts2Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDHearts2Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDHearts3Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDHearts3Objects2[i].setVariableBoolean(gdjs.GameCode.GDHearts3Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDHearts3Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDHearts4Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDHearts4Objects2[i].setVariableBoolean(gdjs.GameCode.GDHearts4Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDHearts4Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDHearts5Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDHearts5Objects2[i].setVariableBoolean(gdjs.GameCode.GDHearts5Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDHearts5Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDHearts6Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDHearts6Objects2[i].setVariableBoolean(gdjs.GameCode.GDHearts6Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDHearts6Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDHearts7Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDHearts7Objects2[i].setVariableBoolean(gdjs.GameCode.GDHearts7Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDHearts7Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDHearts8Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDHearts8Objects2[i].setVariableBoolean(gdjs.GameCode.GDHearts8Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDHearts8Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDHearts9Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDHearts9Objects2[i].setVariableBoolean(gdjs.GameCode.GDHearts9Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDHearts9Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDHearts10Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDHearts10Objects2[i].setVariableBoolean(gdjs.GameCode.GDHearts10Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDHearts10Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDHeartsJackObjects2.length ;i < len;++i) {
-    gdjs.GameCode.GDHeartsJackObjects2[i].setVariableBoolean(gdjs.GameCode.GDHeartsJackObjects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDHeartsJackObjects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDHeartsQueenObjects2.length ;i < len;++i) {
-    gdjs.GameCode.GDHeartsQueenObjects2[i].setVariableBoolean(gdjs.GameCode.GDHeartsQueenObjects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDHeartsQueenObjects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDHeartsKingObjects2.length ;i < len;++i) {
-    gdjs.GameCode.GDHeartsKingObjects2[i].setVariableBoolean(gdjs.GameCode.GDHeartsKingObjects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDHeartsKingObjects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDSpadesAceObjects2.length ;i < len;++i) {
-    gdjs.GameCode.GDSpadesAceObjects2[i].setVariableBoolean(gdjs.GameCode.GDSpadesAceObjects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDSpadesAceObjects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDSpades2Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDSpades2Objects2[i].setVariableBoolean(gdjs.GameCode.GDSpades2Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDSpades2Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDSpades3Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDSpades3Objects2[i].setVariableBoolean(gdjs.GameCode.GDSpades3Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDSpades3Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDSpades4Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDSpades4Objects2[i].setVariableBoolean(gdjs.GameCode.GDSpades4Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDSpades4Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDSpades5Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDSpades5Objects2[i].setVariableBoolean(gdjs.GameCode.GDSpades5Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDSpades5Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDSpades6Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDSpades6Objects2[i].setVariableBoolean(gdjs.GameCode.GDSpades6Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDSpades6Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDSpades7Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDSpades7Objects2[i].setVariableBoolean(gdjs.GameCode.GDSpades7Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDSpades7Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDSpades8Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDSpades8Objects2[i].setVariableBoolean(gdjs.GameCode.GDSpades8Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDSpades8Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDSpades9Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDSpades9Objects2[i].setVariableBoolean(gdjs.GameCode.GDSpades9Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDSpades9Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDSpades10Objects2.length ;i < len;++i) {
-    gdjs.GameCode.GDSpades10Objects2[i].setVariableBoolean(gdjs.GameCode.GDSpades10Objects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDSpades10Objects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDSpadesJackObjects2.length ;i < len;++i) {
-    gdjs.GameCode.GDSpadesJackObjects2[i].setVariableBoolean(gdjs.GameCode.GDSpadesJackObjects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDSpadesJackObjects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDSpadesQueenObjects2.length ;i < len;++i) {
-    gdjs.GameCode.GDSpadesQueenObjects2[i].setVariableBoolean(gdjs.GameCode.GDSpadesQueenObjects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDSpadesQueenObjects2[i].flipX(true);
 }
 for(var i = 0, len = gdjs.GameCode.GDSpadesKingObjects2.length ;i < len;++i) {
-    gdjs.GameCode.GDSpadesKingObjects2[i].setVariableBoolean(gdjs.GameCode.GDSpadesKingObjects2[i].getVariables().get("clickable"), false);
+    gdjs.GameCode.GDSpadesKingObjects2[i].flipX(true);
 }
 }{for(var i = 0, len = gdjs.GameCode.GDClubsAceObjects2.length ;i < len;++i) {
     gdjs.GameCode.GDClubsAceObjects2[i].setAnimationName("Front");
@@ -3297,7 +3610,6 @@ for(var i = 0, len = gdjs.GameCode.GDSpadesQueenObjects2.length ;i < len;++i) {
 for(var i = 0, len = gdjs.GameCode.GDSpadesKingObjects2.length ;i < len;++i) {
     gdjs.GameCode.GDSpadesKingObjects2[i].setAnimationName("Front");
 }
-}{gdjs.evtTools.variable.valuePush(runtimeScene.getScene().getVariables().get("active_values"), gdjs.evtsExt__CardHelper__MapSuit.func(runtimeScene, (gdjs.RuntimeObject.getVariableNumber(((gdjs.GameCode.GDSpadesKingObjects2.length === 0 ) ? ((gdjs.GameCode.GDSpadesQueenObjects2.length === 0 ) ? ((gdjs.GameCode.GDSpadesJackObjects2.length === 0 ) ? ((gdjs.GameCode.GDSpades10Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpades9Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpades8Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpades7Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpades6Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpades5Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpades4Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpades3Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpades2Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpadesAceObjects2.length === 0 ) ? ((gdjs.GameCode.GDHeartsKingObjects2.length === 0 ) ? ((gdjs.GameCode.GDHeartsQueenObjects2.length === 0 ) ? ((gdjs.GameCode.GDHeartsJackObjects2.length === 0 ) ? ((gdjs.GameCode.GDHearts10Objects2.length === 0 ) ? ((gdjs.GameCode.GDHearts9Objects2.length === 0 ) ? ((gdjs.GameCode.GDHearts8Objects2.length === 0 ) ? ((gdjs.GameCode.GDHearts7Objects2.length === 0 ) ? ((gdjs.GameCode.GDHearts6Objects2.length === 0 ) ? ((gdjs.GameCode.GDHearts5Objects2.length === 0 ) ? ((gdjs.GameCode.GDHearts4Objects2.length === 0 ) ? ((gdjs.GameCode.GDHearts3Objects2.length === 0 ) ? ((gdjs.GameCode.GDHearts2Objects2.length === 0 ) ? ((gdjs.GameCode.GDHeartsAceObjects2.length === 0 ) ? ((gdjs.GameCode.GDDiamondsKingObjects2.length === 0 ) ? ((gdjs.GameCode.GDDiamondsQueenObjects2.length === 0 ) ? ((gdjs.GameCode.GDDiamondsJackObjects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds10Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds9Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds8Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds7Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds6Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds5Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds4Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds3Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds2Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamondsAceObjects2.length === 0 ) ? ((gdjs.GameCode.GDClubsKingObjects2.length === 0 ) ? ((gdjs.GameCode.GDClubsQueenObjects2.length === 0 ) ? ((gdjs.GameCode.GDClubsJackObjects2.length === 0 ) ? ((gdjs.GameCode.GDClubs10Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubs9Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubs8Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubs7Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubs6Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubs5Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubs4Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubs3Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubs2Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubsAceObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.GameCode.GDClubsAceObjects2[0].getVariables()) : gdjs.GameCode.GDClubs2Objects2[0].getVariables()) : gdjs.GameCode.GDClubs3Objects2[0].getVariables()) : gdjs.GameCode.GDClubs4Objects2[0].getVariables()) : gdjs.GameCode.GDClubs5Objects2[0].getVariables()) : gdjs.GameCode.GDClubs6Objects2[0].getVariables()) : gdjs.GameCode.GDClubs7Objects2[0].getVariables()) : gdjs.GameCode.GDClubs8Objects2[0].getVariables()) : gdjs.GameCode.GDClubs9Objects2[0].getVariables()) : gdjs.GameCode.GDClubs10Objects2[0].getVariables()) : gdjs.GameCode.GDClubsJackObjects2[0].getVariables()) : gdjs.GameCode.GDClubsQueenObjects2[0].getVariables()) : gdjs.GameCode.GDClubsKingObjects2[0].getVariables()) : gdjs.GameCode.GDDiamondsAceObjects2[0].getVariables()) : gdjs.GameCode.GDDiamonds2Objects2[0].getVariables()) : gdjs.GameCode.GDDiamonds3Objects2[0].getVariables()) : gdjs.GameCode.GDDiamonds4Objects2[0].getVariables()) : gdjs.GameCode.GDDiamonds5Objects2[0].getVariables()) : gdjs.GameCode.GDDiamonds6Objects2[0].getVariables()) : gdjs.GameCode.GDDiamonds7Objects2[0].getVariables()) : gdjs.GameCode.GDDiamonds8Objects2[0].getVariables()) : gdjs.GameCode.GDDiamonds9Objects2[0].getVariables()) : gdjs.GameCode.GDDiamonds10Objects2[0].getVariables()) : gdjs.GameCode.GDDiamondsJackObjects2[0].getVariables()) : gdjs.GameCode.GDDiamondsQueenObjects2[0].getVariables()) : gdjs.GameCode.GDDiamondsKingObjects2[0].getVariables()) : gdjs.GameCode.GDHeartsAceObjects2[0].getVariables()) : gdjs.GameCode.GDHearts2Objects2[0].getVariables()) : gdjs.GameCode.GDHearts3Objects2[0].getVariables()) : gdjs.GameCode.GDHearts4Objects2[0].getVariables()) : gdjs.GameCode.GDHearts5Objects2[0].getVariables()) : gdjs.GameCode.GDHearts6Objects2[0].getVariables()) : gdjs.GameCode.GDHearts7Objects2[0].getVariables()) : gdjs.GameCode.GDHearts8Objects2[0].getVariables()) : gdjs.GameCode.GDHearts9Objects2[0].getVariables()) : gdjs.GameCode.GDHearts10Objects2[0].getVariables()) : gdjs.GameCode.GDHeartsJackObjects2[0].getVariables()) : gdjs.GameCode.GDHeartsQueenObjects2[0].getVariables()) : gdjs.GameCode.GDHeartsKingObjects2[0].getVariables()) : gdjs.GameCode.GDSpadesAceObjects2[0].getVariables()) : gdjs.GameCode.GDSpades2Objects2[0].getVariables()) : gdjs.GameCode.GDSpades3Objects2[0].getVariables()) : gdjs.GameCode.GDSpades4Objects2[0].getVariables()) : gdjs.GameCode.GDSpades5Objects2[0].getVariables()) : gdjs.GameCode.GDSpades6Objects2[0].getVariables()) : gdjs.GameCode.GDSpades7Objects2[0].getVariables()) : gdjs.GameCode.GDSpades8Objects2[0].getVariables()) : gdjs.GameCode.GDSpades9Objects2[0].getVariables()) : gdjs.GameCode.GDSpades10Objects2[0].getVariables()) : gdjs.GameCode.GDSpadesJackObjects2[0].getVariables()) : gdjs.GameCode.GDSpadesQueenObjects2[0].getVariables()) : gdjs.GameCode.GDSpadesKingObjects2[0].getVariables()).get("suit"))), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) + gdjs.evtsExt__CardHelper__MapValue.func(runtimeScene, (gdjs.RuntimeObject.getVariableNumber(((gdjs.GameCode.GDSpadesKingObjects2.length === 0 ) ? ((gdjs.GameCode.GDSpadesQueenObjects2.length === 0 ) ? ((gdjs.GameCode.GDSpadesJackObjects2.length === 0 ) ? ((gdjs.GameCode.GDSpades10Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpades9Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpades8Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpades7Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpades6Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpades5Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpades4Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpades3Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpades2Objects2.length === 0 ) ? ((gdjs.GameCode.GDSpadesAceObjects2.length === 0 ) ? ((gdjs.GameCode.GDHeartsKingObjects2.length === 0 ) ? ((gdjs.GameCode.GDHeartsQueenObjects2.length === 0 ) ? ((gdjs.GameCode.GDHeartsJackObjects2.length === 0 ) ? ((gdjs.GameCode.GDHearts10Objects2.length === 0 ) ? ((gdjs.GameCode.GDHearts9Objects2.length === 0 ) ? ((gdjs.GameCode.GDHearts8Objects2.length === 0 ) ? ((gdjs.GameCode.GDHearts7Objects2.length === 0 ) ? ((gdjs.GameCode.GDHearts6Objects2.length === 0 ) ? ((gdjs.GameCode.GDHearts5Objects2.length === 0 ) ? ((gdjs.GameCode.GDHearts4Objects2.length === 0 ) ? ((gdjs.GameCode.GDHearts3Objects2.length === 0 ) ? ((gdjs.GameCode.GDHearts2Objects2.length === 0 ) ? ((gdjs.GameCode.GDHeartsAceObjects2.length === 0 ) ? ((gdjs.GameCode.GDDiamondsKingObjects2.length === 0 ) ? ((gdjs.GameCode.GDDiamondsQueenObjects2.length === 0 ) ? ((gdjs.GameCode.GDDiamondsJackObjects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds10Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds9Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds8Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds7Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds6Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds5Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds4Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds3Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamonds2Objects2.length === 0 ) ? ((gdjs.GameCode.GDDiamondsAceObjects2.length === 0 ) ? ((gdjs.GameCode.GDClubsKingObjects2.length === 0 ) ? ((gdjs.GameCode.GDClubsQueenObjects2.length === 0 ) ? ((gdjs.GameCode.GDClubsJackObjects2.length === 0 ) ? ((gdjs.GameCode.GDClubs10Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubs9Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubs8Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubs7Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubs6Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubs5Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubs4Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubs3Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubs2Objects2.length === 0 ) ? ((gdjs.GameCode.GDClubsAceObjects2.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.GameCode.GDClubsAceObjects2[0].getVariables()) : gdjs.GameCode.GDClubs2Objects2[0].getVariables()) : gdjs.GameCode.GDClubs3Objects2[0].getVariables()) : gdjs.GameCode.GDClubs4Objects2[0].getVariables()) : gdjs.GameCode.GDClubs5Objects2[0].getVariables()) : gdjs.GameCode.GDClubs6Objects2[0].getVariables()) : gdjs.GameCode.GDClubs7Objects2[0].getVariables()) : gdjs.GameCode.GDClubs8Objects2[0].getVariables()) : gdjs.GameCode.GDClubs9Objects2[0].getVariables()) : gdjs.GameCode.GDClubs10Objects2[0].getVariables()) : gdjs.GameCode.GDClubsJackObjects2[0].getVariables()) : gdjs.GameCode.GDClubsQueenObjects2[0].getVariables()) : gdjs.GameCode.GDClubsKingObjects2[0].getVariables()) : gdjs.GameCode.GDDiamondsAceObjects2[0].getVariables()) : gdjs.GameCode.GDDiamonds2Objects2[0].getVariables()) : gdjs.GameCode.GDDiamonds3Objects2[0].getVariables()) : gdjs.GameCode.GDDiamonds4Objects2[0].getVariables()) : gdjs.GameCode.GDDiamonds5Objects2[0].getVariables()) : gdjs.GameCode.GDDiamonds6Objects2[0].getVariables()) : gdjs.GameCode.GDDiamonds7Objects2[0].getVariables()) : gdjs.GameCode.GDDiamonds8Objects2[0].getVariables()) : gdjs.GameCode.GDDiamonds9Objects2[0].getVariables()) : gdjs.GameCode.GDDiamonds10Objects2[0].getVariables()) : gdjs.GameCode.GDDiamondsJackObjects2[0].getVariables()) : gdjs.GameCode.GDDiamondsQueenObjects2[0].getVariables()) : gdjs.GameCode.GDDiamondsKingObjects2[0].getVariables()) : gdjs.GameCode.GDHeartsAceObjects2[0].getVariables()) : gdjs.GameCode.GDHearts2Objects2[0].getVariables()) : gdjs.GameCode.GDHearts3Objects2[0].getVariables()) : gdjs.GameCode.GDHearts4Objects2[0].getVariables()) : gdjs.GameCode.GDHearts5Objects2[0].getVariables()) : gdjs.GameCode.GDHearts6Objects2[0].getVariables()) : gdjs.GameCode.GDHearts7Objects2[0].getVariables()) : gdjs.GameCode.GDHearts8Objects2[0].getVariables()) : gdjs.GameCode.GDHearts9Objects2[0].getVariables()) : gdjs.GameCode.GDHearts10Objects2[0].getVariables()) : gdjs.GameCode.GDHeartsJackObjects2[0].getVariables()) : gdjs.GameCode.GDHeartsQueenObjects2[0].getVariables()) : gdjs.GameCode.GDHeartsKingObjects2[0].getVariables()) : gdjs.GameCode.GDSpadesAceObjects2[0].getVariables()) : gdjs.GameCode.GDSpades2Objects2[0].getVariables()) : gdjs.GameCode.GDSpades3Objects2[0].getVariables()) : gdjs.GameCode.GDSpades4Objects2[0].getVariables()) : gdjs.GameCode.GDSpades5Objects2[0].getVariables()) : gdjs.GameCode.GDSpades6Objects2[0].getVariables()) : gdjs.GameCode.GDSpades7Objects2[0].getVariables()) : gdjs.GameCode.GDSpades8Objects2[0].getVariables()) : gdjs.GameCode.GDSpades9Objects2[0].getVariables()) : gdjs.GameCode.GDSpades10Objects2[0].getVariables()) : gdjs.GameCode.GDSpadesJackObjects2[0].getVariables()) : gdjs.GameCode.GDSpadesQueenObjects2[0].getVariables()) : gdjs.GameCode.GDSpadesKingObjects2[0].getVariables()).get("value"))), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)));
 }
 { //Subevents
 gdjs.GameCode.eventsList11(runtimeScene);} //End of subevents
@@ -3365,9 +3677,6 @@ gdjs.copyArray(runtimeScene.getObjects("SpadesKing"), gdjs.GameCode.GDSpadesKing
 gdjs.copyArray(runtimeScene.getObjects("SpadesQueen"), gdjs.GameCode.GDSpadesQueenObjects2);
 
 let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDClubsAceObjects2ObjectsGDgdjs_9546GameCode_9546GDClubs2Objects2ObjectsGDgdjs_9546GameCode_9546GDClubs3Objects2ObjectsGDgdjs_9546GameCode_9546GDClubs4Objects2ObjectsGDgdjs_9546GameCode_9546GDClubs5Objects2ObjectsGDgdjs_9546GameCode_9546GDClubs6Objects2ObjectsGDgdjs_9546GameCode_9546GDClubs7Objects2ObjectsGDgdjs_9546GameCode_9546GDClubs8Objects2ObjectsGDgdjs_9546GameCode_9546GDClubs9Objects2ObjectsGDgdjs_9546GameCode_9546GDClubs10Objects2ObjectsGDgdjs_9546GameCode_9546GDClubsJackObjects2ObjectsGDgdjs_9546GameCode_9546GDClubsQueenObjects2ObjectsGDgdjs_9546GameCode_9546GDClubsKingObjects2ObjectsGDgdjs_9546GameCode_9546GDDiamondsAceObjects2ObjectsGDgdjs_9546GameCode_9546GDDiamonds2Objects2ObjectsGDgdjs_9546GameCode_9546GDDiamonds3Objects2ObjectsGDgdjs_9546GameCode_9546GDDiamonds4Objects2ObjectsGDgdjs_9546GameCode_9546GDDiamonds5Objects2ObjectsGDgdjs_9546GameCode_9546GDDiamonds6Objects2ObjectsGDgdjs_9546GameCode_9546GDDiamonds7Objects2ObjectsGDgdjs_9546GameCode_9546GDDiamonds8Objects2ObjectsGDgdjs_9546GameCode_9546GDDiamonds9Objects2ObjectsGDgdjs_9546GameCode_9546GDDiamonds10Objects2ObjectsGDgdjs_9546GameCode_9546GDDiamondsJackObjects2ObjectsGDgdjs_9546GameCode_9546GDDiamondsQueenObjects2ObjectsGDgdjs_9546GameCode_9546GDDiamondsKingObjects2ObjectsGDgdjs_9546GameCode_9546GDHeartsAceObjects2ObjectsGDgdjs_9546GameCode_9546GDHearts2Objects2ObjectsGDgdjs_9546GameCode_9546GDHearts3Objects2ObjectsGDgdjs_9546GameCode_9546GDHearts4Objects2ObjectsGDgdjs_9546GameCode_9546GDHearts5Objects2ObjectsGDgdjs_9546GameCode_9546GDHearts6Objects2ObjectsGDgdjs_9546GameCode_9546GDHearts7Objects2ObjectsGDgdjs_9546GameCode_9546GDHearts8Objects2ObjectsGDgdjs_9546GameCode_9546GDHearts9Objects2ObjectsGDgdjs_9546GameCode_9546GDHearts10Objects2ObjectsGDgdjs_9546GameCode_9546GDHeartsJackObjects2ObjectsGDgdjs_9546GameCode_9546GDHeartsQueenObjects2ObjectsGDgdjs_9546GameCode_9546GDHeartsKingObjects2ObjectsGDgdjs_9546GameCode_9546GDSpadesAceObjects2ObjectsGDgdjs_9546GameCode_9546GDSpades2Objects2ObjectsGDgdjs_9546GameCode_9546GDSpades3Objects2ObjectsGDgdjs_9546GameCode_9546GDSpades4Objects2ObjectsGDgdjs_9546GameCode_9546GDSpades5Objects2ObjectsGDgdjs_9546GameCode_9546GDSpades6Objects2ObjectsGDgdjs_9546GameCode_9546GDSpades7Objects2ObjectsGDgdjs_9546GameCode_9546GDSpades8Objects2ObjectsGDgdjs_9546GameCode_9546GDSpades9Objects2ObjectsGDgdjs_9546GameCode_9546GDSpades10Objects2ObjectsGDgdjs_9546GameCode_9546GDSpadesJackObjects2ObjectsGDgdjs_9546GameCode_9546GDSpadesQueenObjects2ObjectsGDgdjs_9546GameCode_9546GDSpadesKingObjects2Objects, runtimeScene, true, false);
-if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.GameCode.GDClubsAceObjects2.length;i<l;++i) {
     if ( gdjs.GameCode.GDClubsAceObjects2[i].getBehavior("Tween").hasFinished("CardPos") ) {
@@ -4206,6 +4515,9 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDSpadesKingObjects2.length;i<l;++i) {
     }
 }
 gdjs.GameCode.GDSpadesKingObjects2.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDClubsAceObjects2ObjectsGDgdjs_9546GameCode_9546GDClubs2Objects2ObjectsGDgdjs_9546GameCode_9546GDClubs3Objects2ObjectsGDgdjs_9546GameCode_9546GDClubs4Objects2ObjectsGDgdjs_9546GameCode_9546GDClubs5Objects2ObjectsGDgdjs_9546GameCode_9546GDClubs6Objects2ObjectsGDgdjs_9546GameCode_9546GDClubs7Objects2ObjectsGDgdjs_9546GameCode_9546GDClubs8Objects2ObjectsGDgdjs_9546GameCode_9546GDClubs9Objects2ObjectsGDgdjs_9546GameCode_9546GDClubs10Objects2ObjectsGDgdjs_9546GameCode_9546GDClubsJackObjects2ObjectsGDgdjs_9546GameCode_9546GDClubsQueenObjects2ObjectsGDgdjs_9546GameCode_9546GDClubsKingObjects2ObjectsGDgdjs_9546GameCode_9546GDDiamondsAceObjects2ObjectsGDgdjs_9546GameCode_9546GDDiamonds2Objects2ObjectsGDgdjs_9546GameCode_9546GDDiamonds3Objects2ObjectsGDgdjs_9546GameCode_9546GDDiamonds4Objects2ObjectsGDgdjs_9546GameCode_9546GDDiamonds5Objects2ObjectsGDgdjs_9546GameCode_9546GDDiamonds6Objects2ObjectsGDgdjs_9546GameCode_9546GDDiamonds7Objects2ObjectsGDgdjs_9546GameCode_9546GDDiamonds8Objects2ObjectsGDgdjs_9546GameCode_9546GDDiamonds9Objects2ObjectsGDgdjs_9546GameCode_9546GDDiamonds10Objects2ObjectsGDgdjs_9546GameCode_9546GDDiamondsJackObjects2ObjectsGDgdjs_9546GameCode_9546GDDiamondsQueenObjects2ObjectsGDgdjs_9546GameCode_9546GDDiamondsKingObjects2ObjectsGDgdjs_9546GameCode_9546GDHeartsAceObjects2ObjectsGDgdjs_9546GameCode_9546GDHearts2Objects2ObjectsGDgdjs_9546GameCode_9546GDHearts3Objects2ObjectsGDgdjs_9546GameCode_9546GDHearts4Objects2ObjectsGDgdjs_9546GameCode_9546GDHearts5Objects2ObjectsGDgdjs_9546GameCode_9546GDHearts6Objects2ObjectsGDgdjs_9546GameCode_9546GDHearts7Objects2ObjectsGDgdjs_9546GameCode_9546GDHearts8Objects2ObjectsGDgdjs_9546GameCode_9546GDHearts9Objects2ObjectsGDgdjs_9546GameCode_9546GDHearts10Objects2ObjectsGDgdjs_9546GameCode_9546GDHeartsJackObjects2ObjectsGDgdjs_9546GameCode_9546GDHeartsQueenObjects2ObjectsGDgdjs_9546GameCode_9546GDHeartsKingObjects2ObjectsGDgdjs_9546GameCode_9546GDSpadesAceObjects2ObjectsGDgdjs_9546GameCode_9546GDSpades2Objects2ObjectsGDgdjs_9546GameCode_9546GDSpades3Objects2ObjectsGDgdjs_9546GameCode_9546GDSpades4Objects2ObjectsGDgdjs_9546GameCode_9546GDSpades5Objects2ObjectsGDgdjs_9546GameCode_9546GDSpades6Objects2ObjectsGDgdjs_9546GameCode_9546GDSpades7Objects2ObjectsGDgdjs_9546GameCode_9546GDSpades8Objects2ObjectsGDgdjs_9546GameCode_9546GDSpades9Objects2ObjectsGDgdjs_9546GameCode_9546GDSpades10Objects2ObjectsGDgdjs_9546GameCode_9546GDSpadesJackObjects2ObjectsGDgdjs_9546GameCode_9546GDSpadesQueenObjects2ObjectsGDgdjs_9546GameCode_9546GDSpadesKingObjects2Objects, runtimeScene, true, false);
 }
 }
 }
@@ -4724,7 +5036,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.GameCode.asyncCallback10210956 = function (runtimeScene, asyncObjectsList) {
+};gdjs.GameCode.asyncCallback9167820 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(runtimeScene.getObjects("RestartGameButton"), gdjs.GameCode.GDRestartGameButtonObjects2);
 {for(var i = 0, len = gdjs.GameCode.GDRestartGameButtonObjects2.length ;i < len;++i) {
     gdjs.GameCode.GDRestartGameButtonObjects2[i].hide(false);
@@ -4744,7 +5056,7 @@ gdjs.GameCode.eventsList15 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback10210956(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.GameCode.asyncCallback9167820(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -5315,18 +5627,18 @@ gdjs.GameCode.GDClubs3Objects3.length = 0;
 gdjs.GameCode.GDClubs3Objects4.length = 0;
 gdjs.GameCode.GDClubs3Objects5.length = 0;
 gdjs.GameCode.GDClubs3Objects6.length = 0;
-gdjs.GameCode.GDClubs4Objects1.length = 0;
-gdjs.GameCode.GDClubs4Objects2.length = 0;
-gdjs.GameCode.GDClubs4Objects3.length = 0;
-gdjs.GameCode.GDClubs4Objects4.length = 0;
-gdjs.GameCode.GDClubs4Objects5.length = 0;
-gdjs.GameCode.GDClubs4Objects6.length = 0;
 gdjs.GameCode.GDClubs5Objects1.length = 0;
 gdjs.GameCode.GDClubs5Objects2.length = 0;
 gdjs.GameCode.GDClubs5Objects3.length = 0;
 gdjs.GameCode.GDClubs5Objects4.length = 0;
 gdjs.GameCode.GDClubs5Objects5.length = 0;
 gdjs.GameCode.GDClubs5Objects6.length = 0;
+gdjs.GameCode.GDClubs4Objects1.length = 0;
+gdjs.GameCode.GDClubs4Objects2.length = 0;
+gdjs.GameCode.GDClubs4Objects3.length = 0;
+gdjs.GameCode.GDClubs4Objects4.length = 0;
+gdjs.GameCode.GDClubs4Objects5.length = 0;
+gdjs.GameCode.GDClubs4Objects6.length = 0;
 gdjs.GameCode.GDClubs6Objects1.length = 0;
 gdjs.GameCode.GDClubs6Objects2.length = 0;
 gdjs.GameCode.GDClubs6Objects3.length = 0;

@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__ArrayTools__Mean !== "undefined") {
 gdjs.evtsExt__ArrayTools__Mean = {};
 
 
-gdjs.evtsExt__ArrayTools__Mean.userFunc0xa742b8 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ArrayTools__Mean.userFunc0xc003d8 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 const arr = runtimeScene.getVariables().get(eventsFunctionContext.getArgument("arr")).getAllChildrenArray();
 eventsFunctionContext.returnValue =
@@ -20,7 +20,7 @@ gdjs.evtsExt__ArrayTools__Mean.eventsList0 = function(runtimeScene, eventsFuncti
 {
 
 
-gdjs.evtsExt__ArrayTools__Mean.userFunc0xa742b8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__ArrayTools__Mean.userFunc0xc003d8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

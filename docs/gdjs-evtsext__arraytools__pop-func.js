@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__ArrayTools__Pop !== "undefined") {
 gdjs.evtsExt__ArrayTools__Pop = {};
 
 
-gdjs.evtsExt__ArrayTools__Pop.userFunc0xa37780 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ArrayTools__Pop.userFunc0xae0740 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 const arr = runtimeScene.getVariables().get(eventsFunctionContext.getArgument("arr"));
 // Cast to array to ensure getAllChildrenArray returns the real array
@@ -23,7 +23,7 @@ gdjs.evtsExt__ArrayTools__Pop.eventsList0 = function(runtimeScene, eventsFunctio
 {
 
 
-gdjs.evtsExt__ArrayTools__Pop.userFunc0xa37780(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__ArrayTools__Pop.userFunc0xae0740(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
