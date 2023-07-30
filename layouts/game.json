@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.47893418845352603,
+    "zoomFactor": 0.3673257545058834,
     "windowMask": false
   },
   "objectsGroups": [
@@ -182,14 +182,6 @@
           "name": "SpadesKing"
         }
       ]
-    },
-    {
-      "name": "Setup",
-      "objects": [
-        {
-          "name": "CardPlaceholder"
-        }
-      ]
     }
   ],
   "variables": [],
@@ -269,8 +261,8 @@
       "name": "CardPlaceholder",
       "persistentUuid": "3f23ba12-9128-49f1-8883-1c90051fdcc4",
       "width": 0,
-      "x": 32,
-      "y": 112,
+      "x": 125,
+      "y": 244,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -284,8 +276,8 @@
       "name": "CardPlaceholder",
       "persistentUuid": "56d4ce4e-291e-4c3b-a34e-4989d5fc9da0",
       "width": 0,
-      "x": 264,
-      "y": 112,
+      "x": 365,
+      "y": 244,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -299,8 +291,8 @@
       "name": "CardPlaceholder",
       "persistentUuid": "d9d85382-2f6a-48b7-9bd3-c7f188cc6ab8",
       "width": 0,
-      "x": 496,
-      "y": 112,
+      "x": 597,
+      "y": 244,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -314,8 +306,8 @@
       "name": "CardPlaceholder",
       "persistentUuid": "34740114-b7f4-4223-83c8-99bdccc18428",
       "width": 0,
-      "x": 32,
-      "y": 400,
+      "x": 125,
+      "y": 532,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -329,8 +321,8 @@
       "name": "CardPlaceholder",
       "persistentUuid": "4935daf2-bdcd-410f-985b-5d349d179bd7",
       "width": 0,
-      "x": 264,
-      "y": 400,
+      "x": 365,
+      "y": 532,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -344,8 +336,8 @@
       "name": "CardPlaceholder",
       "persistentUuid": "60de6e76-d0b1-442d-9324-3271aca46957",
       "width": 0,
-      "x": 496,
-      "y": 400,
+      "x": 597,
+      "y": 532,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -359,8 +351,8 @@
       "name": "CardPlaceholder",
       "persistentUuid": "1961b497-1ecf-4532-85e5-5eaf8009b868",
       "width": 0,
-      "x": 32,
-      "y": 688,
+      "x": 125,
+      "y": 820,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -374,8 +366,8 @@
       "name": "CardPlaceholder",
       "persistentUuid": "c1527c79-016a-4ebd-a98e-c28959175322",
       "width": 0,
-      "x": 264,
-      "y": 688,
+      "x": 365,
+      "y": 820,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -389,8 +381,8 @@
       "name": "CardPlaceholder",
       "persistentUuid": "4ff060fa-6f76-4be5-aa60-fe17d03c44f9",
       "width": 0,
-      "x": 496,
-      "y": 688,
+      "x": 597,
+      "y": 820,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -404,8 +396,8 @@
       "name": "CardPlaceholder",
       "persistentUuid": "19364c50-21ea-4815-b180-d6bc470f282d",
       "width": 0,
-      "x": 32,
-      "y": 976,
+      "x": 125,
+      "y": 1108,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -419,8 +411,8 @@
       "name": "CardPlaceholder",
       "persistentUuid": "4e64901d-69b1-434c-9f4e-a8b2b6c604a6",
       "width": 0,
-      "x": 264,
-      "y": 976,
+      "x": 365,
+      "y": 1108,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -434,8 +426,8 @@
       "name": "CardPlaceholder",
       "persistentUuid": "1f4137f8-60a1-4759-8c70-34f1f698e06d",
       "width": 0,
-      "x": 496,
-      "y": 976,
+      "x": 597,
+      "y": 1108,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -479,6 +471,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -499,8 +501,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -544,12 +546,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Front12.png",
+                  "image": "Front",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -620,6 +622,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -640,8 +652,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -685,12 +697,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front2",
+                  "image": "Front4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -761,6 +773,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -781,8 +803,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -826,12 +848,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front3",
+                  "image": "Front12",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -859,128 +881,6 @@
                       }
                     ]
                   ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Clubs4",
-      "tags": "Card",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "folded": true,
-          "name": "activated",
-          "type": "boolean",
-          "value": false
-        },
-        {
-          "folded": true,
-          "name": "clickable",
-          "type": "boolean",
-          "value": true
-        },
-        {
-          "folded": true,
-          "name": "suit",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "folded": true,
-          "name": "value",
-          "type": "number",
-          "value": 4
-        }
-      ],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ],
-      "animations": [
-        {
-          "name": "Back",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Back3",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 2,
-                        "y": 0
-                      },
-                      {
-                        "x": 186,
-                        "y": 0
-                      },
-                      {
-                        "x": 186,
-                        "y": 262
-                      },
-                      {
-                        "x": 2,
-                        "y": 262
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Front",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Front5",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
                 }
               ]
             }
@@ -1024,6 +924,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -1044,8 +954,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1089,12 +999,144 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front6",
+                  "image": "Front56",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
+                    "x": 93,
+                    "y": 132
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
                     "x": 0,
                     "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Clubs4",
+      "tags": "Card",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "activated",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "clickable",
+          "type": "boolean",
+          "value": true
+        },
+        {
+          "folded": true,
+          "name": "suit",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "value",
+          "type": "number",
+          "value": 4
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Back",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Back3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 93,
+                    "y": 132
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 0
+                      },
+                      {
+                        "x": 186,
+                        "y": 0
+                      },
+                      {
+                        "x": 186,
+                        "y": 262
+                      },
+                      {
+                        "x": 2,
+                        "y": 262
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Front",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Front55",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1146,6 +1188,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -1166,8 +1218,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1211,12 +1263,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front7",
+                  "image": "Front57",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1268,6 +1320,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -1288,8 +1350,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1333,12 +1395,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front8",
+                  "image": "Front58",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1390,6 +1452,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -1410,8 +1482,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1455,12 +1527,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front9",
+                  "image": "Front59",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1512,6 +1584,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -1532,8 +1614,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1577,12 +1659,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front10",
+                  "image": "Front60",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1634,6 +1716,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -1654,8 +1746,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1699,12 +1791,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front11",
+                  "image": "Front61",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1756,6 +1848,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -1776,8 +1878,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1821,12 +1923,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front13",
+                  "image": "Front62",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1878,6 +1980,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -1898,8 +2010,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -1943,12 +2055,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front14",
+                  "image": "Front63",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -2000,6 +2112,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -2020,8 +2142,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -2065,12 +2187,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front15",
+                  "image": "Front64",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -2122,6 +2244,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -2142,8 +2274,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -2187,12 +2319,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front16",
+                  "image": "Front65",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -2244,6 +2376,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -2264,8 +2406,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -2309,12 +2451,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front17",
+                  "image": "Front66",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -2366,6 +2508,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -2386,8 +2538,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -2431,12 +2583,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front18",
+                  "image": "Front67",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -2488,6 +2640,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -2508,8 +2670,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -2553,12 +2715,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front19",
+                  "image": "Front68",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -2610,6 +2772,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -2630,8 +2802,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -2675,12 +2847,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front20",
+                  "image": "Front69",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -2732,6 +2904,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -2752,8 +2934,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -2797,12 +2979,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front21",
+                  "image": "Front70",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -2854,6 +3036,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -2874,8 +3066,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -2919,12 +3111,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front22",
+                  "image": "Front71",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -2976,6 +3168,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -2996,8 +3198,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -3041,12 +3243,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front23",
+                  "image": "Front72",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -3098,6 +3300,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -3118,8 +3330,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -3163,12 +3375,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front24",
+                  "image": "Front73",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -3220,6 +3432,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -3240,8 +3462,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -3285,12 +3507,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front25",
+                  "image": "Front74",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -3342,6 +3564,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -3362,8 +3594,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -3407,12 +3639,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front26",
+                  "image": "Front75",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -3464,6 +3696,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -3484,8 +3726,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -3529,12 +3771,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front39",
+                  "image": "Front76",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -3586,6 +3828,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -3606,8 +3858,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -3651,12 +3903,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front28",
+                  "image": "Front77",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -3708,6 +3960,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -3728,8 +3990,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -3773,12 +4035,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front29",
+                  "image": "Front78",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -3830,6 +4092,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -3850,8 +4122,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -3895,12 +4167,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front30",
+                  "image": "Front79",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -3952,6 +4224,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -3972,8 +4254,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -4017,12 +4299,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front31",
+                  "image": "Front80",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -4074,6 +4356,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -4094,8 +4386,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -4139,12 +4431,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front32",
+                  "image": "Front81",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -4196,6 +4488,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -4216,8 +4518,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -4265,8 +4567,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -4318,6 +4620,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -4338,8 +4650,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -4387,8 +4699,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -4440,6 +4752,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -4460,8 +4782,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -4505,12 +4827,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front53",
+                  "image": "Front82",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -4562,6 +4884,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -4582,8 +4914,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -4627,12 +4959,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front35",
+                  "image": "Front83",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -4684,6 +5016,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -4704,8 +5046,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -4749,12 +5091,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front36",
+                  "image": "Front84",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -4806,6 +5148,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -4826,8 +5178,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -4871,12 +5223,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front37",
+                  "image": "Front85",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -4928,6 +5280,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -4948,8 +5310,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -4993,12 +5355,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front38",
+                  "image": "Front86",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -5050,6 +5412,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -5070,8 +5442,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -5115,12 +5487,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front27",
+                  "image": "Front87",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -5172,6 +5544,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -5192,8 +5574,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -5237,12 +5619,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front40",
+                  "image": "Front88",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -5294,6 +5676,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -5314,8 +5706,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -5359,12 +5751,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front54",
+                  "image": "Front89",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -5416,6 +5808,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -5436,8 +5838,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -5481,12 +5883,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front42",
+                  "image": "Front90",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -5538,6 +5940,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -5558,8 +5970,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -5603,12 +6015,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front43",
+                  "image": "Front91",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -5660,6 +6072,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -5680,8 +6102,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -5725,12 +6147,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front44",
+                  "image": "Front92",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -5782,6 +6204,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -5802,8 +6234,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -5847,12 +6279,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front45",
+                  "image": "Front93",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -5904,6 +6336,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -5924,8 +6366,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -5969,12 +6411,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front46",
+                  "image": "Front94",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -6026,6 +6468,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -6046,8 +6498,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -6091,12 +6543,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front52",
+                  "image": "Front95",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -6148,6 +6600,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -6168,8 +6630,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -6213,12 +6675,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front47",
+                  "image": "Front96",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -6270,6 +6732,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -6290,8 +6762,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -6335,12 +6807,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front48",
+                  "image": "Front97",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -6392,6 +6864,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -6412,8 +6894,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -6457,12 +6939,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front49",
+                  "image": "Front98",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -6514,6 +6996,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -6534,8 +7026,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -6579,12 +7071,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front50",
+                  "image": "Front99",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -6636,6 +7128,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -6656,8 +7158,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -6701,12 +7203,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front51",
+                  "image": "Front100",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -6758,6 +7260,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ThreeDFlip",
+          "type": "ThreeDFlip::ThreeDFlip",
+          "Duration": 500,
+          "IsFlipped": false,
+          "IsFlipping": false,
+          "Width": 500,
+          "ElapsedTime": 500,
+          "Toggle": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -6778,8 +7290,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -6823,12 +7335,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Front41",
+                  "image": "Front101",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -7026,8 +7538,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 93,
+                    "y": 132
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -7365,17 +7877,6 @@
           "conditions": [
             {
               "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Cards",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "Tween::HasFinished"
               },
               "parameters": [
@@ -7401,6 +7902,17 @@
                 "Cards",
                 "clickable",
                 "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Cards",
+                "",
+                "",
+                ""
               ]
             }
           ],
@@ -7449,8 +7961,8 @@
                   },
                   "parameters": [
                     "Cards",
-                    "activated",
-                    "True"
+                    "clickable",
+                    "False"
                   ]
                 },
                 {
@@ -7459,17 +7971,8 @@
                   },
                   "parameters": [
                     "Cards",
-                    "clickable",
-                    "False"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "Cards",
-                    "\"Front\""
+                    "activated",
+                    "True"
                   ]
                 },
                 {
@@ -7479,6 +7982,24 @@
                   "parameters": [
                     "active_values",
                     "CardHelper::MapSuit(Cards.Variable(suit)) + CardHelper::MapValue(Cards.Variable(value))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlipX"
+                  },
+                  "parameters": [
+                    "Cards",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "Cards",
+                    "\"Front\""
                   ]
                 }
               ],
@@ -7630,6 +8151,15 @@
                               },
                               "parameters": [
                                 "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "FlipX"
+                              },
+                              "parameters": [
+                                "Cards",
+                                "yes"
                               ]
                             },
                             {
@@ -7963,6 +8493,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "ThreeDFlip",
+      "type": "ThreeDFlip::ThreeDFlip"
+    },
     {
       "name": "Tween",
       "type": "Tween::TweenBehavior"

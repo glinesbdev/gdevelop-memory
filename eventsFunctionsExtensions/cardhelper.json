@@ -132,6 +132,11 @@
         {
           "type": "BuiltinCommonInstructions::JsCode",
           "inlineCode": [
+            "const random = (seed) => {",
+            "  var x = Math.sin(seed++) * 10000; ",
+            "  return x - Math.floor(x);",
+            "}",
+            "",
             "const arr = runtimeScene.getVariables().get(eventsFunctionContext.getArgument(\"names\"));",
             "arr.castTo(\"array\");",
             "const array = arr.getAllChildrenArray();",
@@ -139,12 +144,14 @@
             "const length = array.length",
             "let index = -1;",
             "const lastIndex = length - 1;",
+            "let seed = new Date().getMilliseconds();",
             "",
             "while (++index < length) {",
-            "    const rand = index + Math.floor(Math.random() * (lastIndex - index + 1));",
+            "    const rand = Math.floor(random(seed) * index++);",
             "    const value = array[rand];",
             "    array[rand] = array[index];",
             "    array[index] = value;",
+            "    ++seed;",
             "}"
           ],
           "parameterObjects": "",
