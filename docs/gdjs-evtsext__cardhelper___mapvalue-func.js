@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__CardHelper___MapValue !== "undefined") {
 gdjs.evtsExt__CardHelper___MapValue = {};
 
 
-gdjs.evtsExt__CardHelper___MapValue.userFunc0xc1d410 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__CardHelper___MapValue.userFunc0x8588c8 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 const cardValue = eventsFunctionContext.getArgument("value");
 
@@ -29,7 +29,7 @@ gdjs.evtsExt__CardHelper___MapValue.eventsList0 = function(runtimeScene, eventsF
 {
 
 
-gdjs.evtsExt__CardHelper___MapValue.userFunc0xc1d410(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__CardHelper___MapValue.userFunc0x8588c8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

@@ -25,7 +25,7 @@
     "author": "",
     "windowWidth": 720,
     "windowHeight": 1280,
-    "latestCompilationDirectory": "C:\\Users\\bradyn\\Documents\\GDevelop projects\\builds\\desktop\\Memory",
+    "latestCompilationDirectory": "C:\\Users\\bradyn\\Documents\\GDevelop projects\\Memory\\docs",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -601,6 +601,39 @@
         "name": "Front101",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Star.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3eba60f8aa3d9e64f4e96264a75cc62a2d2edce79e8270b5b73cfcf9f1fb4cbb_Star.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/3eba60f8aa3d9e64f4e96264a75cc62a2d2edce79e8270b5b73cfcf9f1fb4cbb_Star.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/MatchSound.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Pickup/coin 52\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.05,\\\"sustainPunch\\\":0,\\\"decay\\\":0.37,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":460.5669421534098,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":0,\\\"frequencyJump1Onset\\\":25,\\\"frequencyJump1Amount\\\":20,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"whistle\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":15,\\\"squareDutySweep\\\":65,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"New sound effect\"}}",
+        "name": "MatchSound",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/WrongMatch.wav",
+        "kind": "audio",
+        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Random 34\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0,\\\"sustainPunch\\\":0,\\\"decay\\\":0.16,\\\"tremoloDepth\\\":78,\\\"tremoloFrequency\\\":761,\\\"frequency\\\":2300,\\\"frequencySweep\\\":5000,\\\"frequencyDeltaSweep\\\":-7300,\\\"repeatFrequency\\\":58.900000000000006,\\\"frequencyJump1Onset\\\":25,\\\"frequencyJump1Amount\\\":-90,\\\"frequencyJump2Onset\\\":85,\\\"frequencyJump2Amount\\\":-65,\\\"harmonics\\\":1,\\\"harmonicsFalloff\\\":0.09,\\\"waveform\\\":\\\"square\\\",\\\"interpolateNoise\\\":false,\\\"vibratoDepth\\\":10,\\\"vibratoFrequency\\\":215,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":800,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":6700,\\\"compression\\\":0.5,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"WrongMatch\"}}",
+        "name": "WrongMatch",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -629,6 +662,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/shakeobject"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/threedflip"

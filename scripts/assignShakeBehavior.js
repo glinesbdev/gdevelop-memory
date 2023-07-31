@@ -6,22 +6,10 @@ const path = require("path");
 const updateCards = (cards) => cards.map(card => {
   return {
     ...card,
-    animations: card.animations.map(animation => {
-      return {
-        ...animation,
-        directions: animation.directions.map(direction => {
-          return {
-            ...direction,
-            sprites: direction.sprites.map(sprite => {
-              return {
-                ...sprite,
-                originPoint: { ...sprite.originPoint, x: 186 / 2, y: 264 / 2 }
-              }
-            })
-          }
-        })
-      }
-    })
+    behaviors: [{
+      name: "ShakeObject_PositionAngle",
+      type: "ShakeObject::ShakeObject_PositionAngle"
+    }, ...card.behaviors]
   }
 });
 

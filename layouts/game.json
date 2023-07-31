@@ -471,6 +471,10 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
           "Duration": 500,
@@ -621,6 +625,10 @@
       ],
       "effects": [],
       "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
         {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
@@ -773,6 +781,10 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
           "Duration": 500,
@@ -924,6 +936,10 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
           "Duration": 500,
@@ -1055,6 +1071,10 @@
       ],
       "effects": [],
       "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
         {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
@@ -1188,6 +1208,10 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
           "Duration": 500,
@@ -1319,6 +1343,10 @@
       ],
       "effects": [],
       "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
         {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
@@ -1452,6 +1480,10 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
           "Duration": 500,
@@ -1583,6 +1615,10 @@
       ],
       "effects": [],
       "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
         {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
@@ -1716,6 +1752,10 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
           "Duration": 500,
@@ -1847,6 +1887,10 @@
       ],
       "effects": [],
       "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
         {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
@@ -1980,6 +2024,10 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
           "Duration": 500,
@@ -2111,6 +2159,10 @@
       ],
       "effects": [],
       "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
         {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
@@ -2244,6 +2296,10 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
           "Duration": 500,
@@ -2375,6 +2431,10 @@
       ],
       "effects": [],
       "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
         {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
@@ -2508,6 +2568,10 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
           "Duration": 500,
@@ -2639,6 +2703,10 @@
       ],
       "effects": [],
       "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
         {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
@@ -2772,6 +2840,10 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
           "Duration": 500,
@@ -2903,6 +2975,10 @@
       ],
       "effects": [],
       "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
         {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
@@ -3036,6 +3112,10 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
           "Duration": 500,
@@ -3167,6 +3247,10 @@
       ],
       "effects": [],
       "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
         {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
@@ -3300,6 +3384,10 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
           "Duration": 500,
@@ -3431,6 +3519,10 @@
       ],
       "effects": [],
       "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
         {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
@@ -3564,6 +3656,10 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
           "Duration": 500,
@@ -3695,6 +3791,10 @@
       ],
       "effects": [],
       "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
         {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
@@ -3828,6 +3928,10 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
           "Duration": 500,
@@ -3959,6 +4063,10 @@
       ],
       "effects": [],
       "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
         {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
@@ -4092,6 +4200,10 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
           "Duration": 500,
@@ -4223,6 +4335,10 @@
       ],
       "effects": [],
       "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
         {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
@@ -4356,6 +4472,10 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
           "Duration": 500,
@@ -4487,6 +4607,10 @@
       ],
       "effects": [],
       "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
         {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
@@ -4620,6 +4744,10 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
           "Duration": 500,
@@ -4751,6 +4879,10 @@
       ],
       "effects": [],
       "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
         {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
@@ -4884,6 +5016,10 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
           "Duration": 500,
@@ -5015,6 +5151,10 @@
       ],
       "effects": [],
       "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
         {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
@@ -5148,6 +5288,10 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
           "Duration": 500,
@@ -5279,6 +5423,10 @@
       ],
       "effects": [],
       "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
         {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
@@ -5412,6 +5560,10 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
           "Duration": 500,
@@ -5543,6 +5695,10 @@
       ],
       "effects": [],
       "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
         {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
@@ -5676,6 +5832,10 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
           "Duration": 500,
@@ -5807,6 +5967,10 @@
       ],
       "effects": [],
       "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
         {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
@@ -5940,6 +6104,10 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
           "Duration": 500,
@@ -6071,6 +6239,10 @@
       ],
       "effects": [],
       "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
         {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
@@ -6204,6 +6376,10 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
           "Duration": 500,
@@ -6335,6 +6511,10 @@
       ],
       "effects": [],
       "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
         {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
@@ -6468,6 +6648,10 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
           "Duration": 500,
@@ -6599,6 +6783,10 @@
       ],
       "effects": [],
       "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
         {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
@@ -6732,6 +6920,10 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
           "Duration": 500,
@@ -6863,6 +7055,10 @@
       ],
       "effects": [],
       "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
         {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
@@ -6996,6 +7192,10 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
           "Duration": 500,
@@ -7128,6 +7328,10 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
+        {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
           "Duration": 500,
@@ -7259,6 +7463,10 @@
       ],
       "effects": [],
       "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        },
         {
           "name": "ThreeDFlip",
           "type": "ThreeDFlip::ThreeDFlip",
@@ -7573,6 +7781,52 @@
           ]
         }
       ]
+    },
+    {
+      "additive": false,
+      "assetStoreId": "",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 360,
+      "emitterForceMax": 300,
+      "emitterForceMin": 300,
+      "flow": 1000,
+      "jumpForwardInTimeOnCreation": 0,
+      "maxParticleNb": 6,
+      "name": "MatchParticles",
+      "particleAlpha1": 255,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 20,
+      "particleAngle2": 20,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 0,
+      "particleBlue2": 0,
+      "particleGravityX": 0,
+      "particleGravityY": 100,
+      "particleGreen1": 216,
+      "particleGreen2": 216,
+      "particleLifeTimeMax": 1,
+      "particleLifeTimeMin": 1,
+      "particleRed1": 215,
+      "particleRed2": 215,
+      "particleSize1": 100,
+      "particleSize2": 100,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 1,
+      "rendererParam2": 1,
+      "rendererType": "Quad",
+      "tags": "",
+      "tank": 6,
+      "textureParticleName": "3eba60f8aa3d9e64f4e96264a75cc62a2d2edce79e8270b5b73cfcf9f1fb4cbb_Star.png",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 5,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "events": [
@@ -8054,6 +8308,18 @@
                             "=",
                             "\"Score: \" + GlobalVariableString(score)"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "MatchSound",
+                            "",
+                            "50",
+                            "2"
+                          ]
                         }
                       ],
                       "events": [
@@ -8091,6 +8357,27 @@
                                 "False"
                               ]
                             }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::ForEach",
+                              "object": "Cards",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "Create"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "MatchParticles",
+                                    "Cards.CenterX()",
+                                    "Cards.CenterY()",
+                                    ""
+                                  ]
+                                }
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -8117,6 +8404,18 @@
                           "parameters": [
                             "can_pick",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "WrongMatch",
+                            "",
+                            "50",
+                            "2"
                           ]
                         }
                       ],
@@ -8145,6 +8444,22 @@
                             }
                           ],
                           "actions": [
+                            {
+                              "type": {
+                                "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+                              },
+                              "parameters": [
+                                "Cards",
+                                "ShakeObject_PositionAngle",
+                                "0.5",
+                                "10",
+                                "0",
+                                "0",
+                                "0",
+                                "",
+                                ""
+                              ]
+                            },
                             {
                               "type": {
                                 "value": "Wait"
@@ -8493,6 +8808,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "ShakeObject_PositionAngle",
+      "type": "ShakeObject::ShakeObject_PositionAngle"
+    },
     {
       "name": "ThreeDFlip",
       "type": "ThreeDFlip::ThreeDFlip"

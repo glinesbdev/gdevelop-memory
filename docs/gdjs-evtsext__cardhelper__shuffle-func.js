@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__CardHelper__Shuffle !== "undefined") {
 gdjs.evtsExt__CardHelper__Shuffle = {};
 
 
-gdjs.evtsExt__CardHelper__Shuffle.userFunc0xc003d8 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__CardHelper__Shuffle.userFunc0x8588c8 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 const random = (seed) => {
   var x = Math.sin(seed++) * 10000; 
@@ -36,7 +36,7 @@ gdjs.evtsExt__CardHelper__Shuffle.eventsList0 = function(runtimeScene, eventsFun
 {
 
 
-gdjs.evtsExt__CardHelper__Shuffle.userFunc0xc003d8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__CardHelper__Shuffle.userFunc0x8588c8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

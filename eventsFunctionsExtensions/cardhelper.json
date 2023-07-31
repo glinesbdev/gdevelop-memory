@@ -143,7 +143,6 @@
             "",
             "const length = array.length",
             "let index = -1;",
-            "const lastIndex = length - 1;",
             "let seed = new Date().getMilliseconds();",
             "",
             "while (++index < length) {",

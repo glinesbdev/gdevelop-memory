@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__ArrayTools__Flatten !== "undefined") {
 gdjs.evtsExt__ArrayTools__Flatten = {};
 
 
-gdjs.evtsExt__ArrayTools__Flatten.userFunc0x866c60 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ArrayTools__Flatten.userFunc0x7f3468 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 const arr = runtimeScene.getVariables().get(eventsFunctionContext.getArgument("arr"));
 // Cast to array to ensure getAllChildrenArray returns the real array
@@ -36,7 +36,7 @@ gdjs.evtsExt__ArrayTools__Flatten.eventsList0 = function(runtimeScene, eventsFun
 {
 
 
-gdjs.evtsExt__ArrayTools__Flatten.userFunc0x866c60(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__ArrayTools__Flatten.userFunc0x7f3468(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__ArrayTools__IndexOfStr !== "undefined") {
 gdjs.evtsExt__ArrayTools__IndexOfStr = {};
 
 
-gdjs.evtsExt__ArrayTools__IndexOfStr.userFunc0x79ab98 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ArrayTools__IndexOfStr.userFunc0xbd5e00 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 const str = eventsFunctionContext.getArgument("str");
 const arr = runtimeScene
@@ -25,7 +25,7 @@ gdjs.evtsExt__ArrayTools__IndexOfStr.eventsList0 = function(runtimeScene, events
 {
 
 
-gdjs.evtsExt__ArrayTools__IndexOfStr.userFunc0x79ab98(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__ArrayTools__IndexOfStr.userFunc0xbd5e00(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
