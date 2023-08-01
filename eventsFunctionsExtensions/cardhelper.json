@@ -15,6 +15,79 @@
   "dependencies": [],
   "eventsFunctions": [
     {
+      "description": "Flip a card over",
+      "fullName": "Flip",
+      "functionType": "Action",
+      "name": "Flip",
+      "sentence": "Flip the _PARAM1_ over to the _PARAM2_ side",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ThreeDFlip::ThreeDFlip::Flip"
+              },
+              "parameters": [
+                "Cards",
+                "Behavior",
+                "300",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Cards",
+                "GetArgumentAsString(\"Side\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlipX"
+              },
+              "parameters": [
+                "Cards",
+                "yes"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Card",
+          "name": "Cards",
+          "supplementaryInformation": "Sprite",
+          "type": "objectList"
+        },
+        {
+          "description": "Side",
+          "name": "Side",
+          "supplementaryInformation": "ThreeDFlip::ThreeDFlip",
+          "type": "string"
+        },
+        {
+          "description": "Behavior",
+          "name": "Behavior",
+          "supplementaryInformation": "ThreeDFlip::ThreeDFlip",
+          "type": "behavior"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
       "description": "Maps card value and suit numbers to string names.",
       "fullName": "MapName",
       "functionType": "StringExpression",

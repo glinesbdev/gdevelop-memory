@@ -11,14 +11,14 @@
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
-    "gridWidth": 8,
+    "gridWidth": 16,
     "gridHeight": 16,
     "gridOffsetX": 0,
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3673257545058834,
+    "zoomFactor": 0.39251611754882376,
     "windowMask": false
   },
   "objectsGroups": [
@@ -188,22 +188,6 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "UI",
-      "locked": true,
-      "name": "Score",
-      "persistentUuid": "4bec8613-4fce-4a85-8a8e-d44910931df6",
-      "width": 0,
-      "x": 192,
-      "y": 7,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 0,
       "height": 1280,
@@ -211,27 +195,10 @@
       "locked": true,
       "name": "Background",
       "persistentUuid": "ba586eb1-9936-4ec6-b564-66c7e9506312",
-      "width": 720,
-      "x": 0,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 579,
-      "layer": "UI",
-      "locked": true,
-      "name": "WinMessage",
-      "persistentUuid": "c00f84f8-a5a0-44bf-a87d-3d26a04a779a",
       "sealed": true,
       "width": 720,
       "x": 0,
-      "y": -700,
+      "y": 0,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -429,6 +396,37 @@
       "x": 597,
       "y": 1108,
       "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 122,
+      "layer": "UI",
+      "name": "ScoreText",
+      "persistentUuid": "1b9c9870-605c-4b17-a4fe-aa162ad56e7c",
+      "width": 397,
+      "x": 161.5,
+      "y": -16,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "WinText",
+      "persistentUuid": "811e266a-e74d-47e9-b476-752ed7c19dae",
+      "width": 0,
+      "x": 96.375,
+      "y": -700,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -7565,98 +7563,6 @@
       ]
     },
     {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "Score",
-      "smoothed": true,
-      "tags": "UI",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [
-        {
-          "effectType": "Outline",
-          "name": "Outline",
-          "doubleParameters": {
-            "padding": 0,
-            "thickness": 2
-          },
-          "stringParameters": {
-            "color": "0;0;0"
-          },
-          "booleanParameters": {}
-        }
-      ],
-      "behaviors": [],
-      "string": "Score: 0",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 80,
-      "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "WinMessage",
-      "smoothed": true,
-      "tags": "UI",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [
-        {
-          "effectType": "Outline",
-          "name": "Outline",
-          "doubleParameters": {
-            "padding": 0,
-            "thickness": 2
-          },
-          "stringParameters": {
-            "color": "0;0;0"
-          },
-          "booleanParameters": {}
-        }
-      ],
-      "behaviors": [
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ],
-      "string": "You Win!",
-      "font": "",
-      "textAlignment": "center",
-      "characterSize": 256,
-      "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      }
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Background",
-      "tags": "Background",
-      "texture": "76e14d12c1e48bdcb9326e057f4f7551c9cbe3f01fb9b4c38c23b4bbea3cad1d_tiled_Green Felt.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ]
-    },
-    {
       "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
       "name": "RestartGameButton",
       "tags": "UI",
@@ -7699,13 +7605,13 @@
           "smoothed": true,
           "underlined": false,
           "string": "Restart",
-          "font": "",
+          "font": "assets\\EricaOne-Regular.ttf",
           "textAlignment": "center",
           "characterSize": 60,
           "color": {
-            "b": 29,
-            "g": 99,
-            "r": 62
+            "b": 0,
+            "g": 101,
+            "r": 0
           }
         },
         "Pressed": {
@@ -7827,6 +7733,56 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "name": "ScoreText",
+      "tags": "UI",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        }
+      ],
+      "content": {
+        "text": "Score: 0",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "assets\\MemoryFont.fnt",
+        "textureAtlasResourceName": "assets\\MemoryFont.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "WinText",
+      "tags": "UI",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "text": "You\nWin!",
+        "opacity": 255,
+        "scale": 2.5,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "assets\\MemoryFont.fnt",
+        "textureAtlasResourceName": "assets\\MemoryFont.png",
+        "align": "center",
+        "wordWrap": true
+      }
     }
   ],
   "events": [
@@ -8015,6 +7971,7 @@
               "comment": "Shuffle the values around so they appear in a more random order"
             },
             {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
@@ -8141,6 +8098,28 @@
             },
             {
               "type": {
+                "inverted": true,
+                "value": "Tween::IsPlaying"
+              },
+              "parameters": [
+                "Cards",
+                "Tween",
+                "\"Flip\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Cards",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "GlobalVariableAsBoolean"
               },
               "parameters": [
@@ -8156,17 +8135,6 @@
                 "Cards",
                 "clickable",
                 "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Cards",
-                "",
-                "",
-                ""
               ]
             }
           ],
@@ -8240,20 +8208,14 @@
                 },
                 {
                   "type": {
-                    "value": "FlipX"
+                    "value": "CardHelper::Flip"
                   },
                   "parameters": [
+                    "",
                     "Cards",
-                    "yes"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "Cards",
-                    "\"Front\""
+                    "\"Front\"",
+                    "ThreeDFlip",
+                    ""
                   ]
                 }
               ],
@@ -8274,6 +8236,18 @@
                   ],
                   "actions": [],
                   "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "When the player got a match"
+                    },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
@@ -8301,12 +8275,28 @@
                         },
                         {
                           "type": {
-                            "value": "TextObject::String"
+                            "value": "BitmapText::BitmapTextObject::SetText"
                           },
                           "parameters": [
-                            "Score",
+                            "ScoreText",
                             "=",
                             "\"Score: \" + GlobalVariableString(score)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+                          },
+                          "parameters": [
+                            "ScoreText",
+                            "ShakeObject_PositionAngle",
+                            "0.5",
+                            "5",
+                            "2",
+                            "1",
+                            "0.08",
+                            "",
+                            ""
                           ]
                         },
                         {
@@ -8344,6 +8334,12 @@
                                 "activated",
                                 "True"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
                             }
                           ],
                           "actions": [
@@ -8366,6 +8362,14 @@
                               "actions": [
                                 {
                                   "type": {
+                                    "value": "Wait"
+                                  },
+                                  "parameters": [
+                                    "0.3"
+                                  ]
+                                },
+                                {
+                                  "type": {
                                     "value": "Create"
                                   },
                                   "parameters": [
@@ -8381,6 +8385,18 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "When the player didn't get a match"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -8441,9 +8457,23 @@
                                 "activated",
                                 "True"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
                             }
                           ],
                           "actions": [
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "1"
+                              ]
+                            },
                             {
                               "type": {
                                 "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
@@ -8465,25 +8495,18 @@
                                 "value": "Wait"
                               },
                               "parameters": [
-                                "1"
+                                "0.5"
                               ]
                             },
                             {
                               "type": {
-                                "value": "FlipX"
+                                "value": "CardHelper::Flip"
                               },
                               "parameters": [
+                                "",
                                 "Cards",
-                                "yes"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetAnimationName"
-                              },
-                              "parameters": [
-                                "Cards",
-                                "\"Back\""
+                                "\"Back\"",
+                                "ThreeDFlip"
                               ]
                             },
                             {
@@ -8542,6 +8565,17 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Tween::IsPlaying"
+              },
+              "parameters": [
+                "Cards",
+                "Tween",
+                "\"Flip\""
+              ]
+            },
             {
               "type": {
                 "inverted": true,
@@ -8656,7 +8690,7 @@
                 "value": "Tween::AddObjectPositionYTween"
               },
               "parameters": [
-                "WinMessage",
+                "WinText",
                 "Tween",
                 "\"WinPosY\"",
                 "221",

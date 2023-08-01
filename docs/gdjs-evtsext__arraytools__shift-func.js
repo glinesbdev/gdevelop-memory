@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__ArrayTools__Shift !== "undefined") {
 gdjs.evtsExt__ArrayTools__Shift = {};
 
 
-gdjs.evtsExt__ArrayTools__Shift.userFunc0x7f3468 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ArrayTools__Shift.userFunc0x9414e0 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 const arr = runtimeScene.getVariables().get(eventsFunctionContext.getArgument("arr"));
 // Cast to array to ensure getAllChildrenArray returns the real array
@@ -23,7 +23,7 @@ gdjs.evtsExt__ArrayTools__Shift.eventsList0 = function(runtimeScene, eventsFunct
 {
 
 
-gdjs.evtsExt__ArrayTools__Shift.userFunc0x7f3468(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__ArrayTools__Shift.userFunc0x9414e0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

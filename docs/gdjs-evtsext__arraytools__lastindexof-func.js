@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__ArrayTools__LastIndexOf !== "undefined") {
 gdjs.evtsExt__ArrayTools__LastIndexOf = {};
 
 
-gdjs.evtsExt__ArrayTools__LastIndexOf.userFunc0x9a9b80 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ArrayTools__LastIndexOf.userFunc0x9fad00 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 const num = eventsFunctionContext.getArgument("num");
 const arr = runtimeScene
@@ -25,7 +25,7 @@ gdjs.evtsExt__ArrayTools__LastIndexOf.eventsList0 = function(runtimeScene, event
 {
 
 
-gdjs.evtsExt__ArrayTools__LastIndexOf.userFunc0x9a9b80(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__ArrayTools__LastIndexOf.userFunc0x9fad00(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

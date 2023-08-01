@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__ArrayTools__Reverse !== "undefined") {
 gdjs.evtsExt__ArrayTools__Reverse = {};
 
 
-gdjs.evtsExt__ArrayTools__Reverse.userFunc0xab10b0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ArrayTools__Reverse.userFunc0xa23c40 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 const arr = runtimeScene.getVariables().get(eventsFunctionContext.getArgument("arr"));
 // Cast to array to ensure getAllChildrenArray returns the real array
@@ -21,7 +21,7 @@ gdjs.evtsExt__ArrayTools__Reverse.eventsList0 = function(runtimeScene, eventsFun
 {
 
 
-gdjs.evtsExt__ArrayTools__Reverse.userFunc0xab10b0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__ArrayTools__Reverse.userFunc0xa23c40(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

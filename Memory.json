@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "Start Menu",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -27,7 +27,7 @@
     "windowHeight": 1280,
     "latestCompilationDirectory": "C:\\Users\\bradyn\\Documents\\GDevelop projects\\Memory\\docs",
     "maxFPS": 60,
-    "minFPS": 20,
+    "minFPS": 30,
     "verticalSync": false,
     "platformSpecificAssets": {},
     "loadingScreen": {
@@ -634,11 +634,52 @@
         "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "assets/MemoryFont.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "assets\\MemoryFont.fnt",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MemoryFont.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\MemoryFont.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/EricaOne-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\EricaOne-Regular.ttf",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
-  "objects": [],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Background",
+      "tags": "Background",
+      "texture": "76e14d12c1e48bdcb9326e057f4f7551c9cbe3f01fb9b4c38c23b4bbea3cad1d_tiled_Green Felt.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    }
+  ],
   "objectsGroups": [],
   "variables": [
     {
@@ -658,17 +699,25 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/game"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/start-menu"
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/shakeobject"
+      "referenceTo": "/eventsFunctionsExtensions/threedflip"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/threedflip"
+      "referenceTo": "/eventsFunctionsExtensions/rectanglemovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/shakeobject"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

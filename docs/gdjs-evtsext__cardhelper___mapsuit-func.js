@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__CardHelper___MapSuit !== "undefined") {
 gdjs.evtsExt__CardHelper___MapSuit = {};
 
 
-gdjs.evtsExt__CardHelper___MapSuit.userFunc0x8588c8 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__CardHelper___MapSuit.userFunc0x7d9868 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 const cardSuit = eventsFunctionContext.getArgument("suit");
 
@@ -28,7 +28,7 @@ gdjs.evtsExt__CardHelper___MapSuit.eventsList0 = function(runtimeScene, eventsFu
 {
 
 
-gdjs.evtsExt__CardHelper___MapSuit.userFunc0x8588c8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__CardHelper___MapSuit.userFunc0x7d9868(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
